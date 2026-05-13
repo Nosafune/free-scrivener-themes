@@ -1,0 +1,47 @@
+[
+  {
+    "theme_id": "mani_katti",
+    "display_name": "Mani Katti",
+    "output_suffix": "mani_katti",
+    "profile": "mani_katti",
+    "page_background": "#123127",
+    "body_text": "#E7D6B5",
+    "secondary_text": "#A8B592",
+    "accent_text": "#2E8B78",
+    "ornament_color": "#D4A64A",
+    "header_footer_color": "#A8B592",
+    "chapter_title_color": "#2E8B78",
+    "scene_break_color": "#D4A64A",
+    "default_scene_break_glyph": "⋇"
+  },
+  {
+    "theme_id": "salva_la_reina",
+    "display_name": "Salva la Reina",
+    "output_suffix": "salva_la_reina",
+    "profile": "salva_la_reina",
+    "page_background": "#D7CCAC",
+    "body_text": "#171B28",
+    "secondary_text": "#5E5A48",
+    "accent_text": "#244C9A",
+    "ornament_color": "#C49A3A",
+    "header_footer_color": "#5E5A48",
+    "chapter_title_color": "#244C9A",
+    "scene_break_color": "#C49A3A",
+    "default_scene_break_glyph": "⋇"
+  },
+  {
+    "theme_id": "majima",
+    "display_name": "Majima No Aniki",
+    "output_suffix": "majima",
+    "profile": "majima",
+    "page_background": "#171219",
+    "body_text": "#E6D4A7",
+    "secondary_text": "#B59A6B",
+    "accent_text": "#D4A32F",
+    "ornament_color": "#8A4BC2",
+    "header_footer_color": "#B59A6B",
+    "chapter_title_color": "#D4A32F",
+    "scene_break_color": "#8A4BC2",
+    "default_scene_break_glyph": "⋇"
+  }
+]

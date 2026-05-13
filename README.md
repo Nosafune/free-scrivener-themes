@@ -1,40 +1,59 @@
-## What's Included
+# Free Scrivener Themes
 
-- **SEVERAL unique themes** covering dark mode, light mode, sepia, high contrast, and custom colors
-- **Windows and macOS support** (tested on Scrivener 3.x)
-- **One-click install** via Scrivener's Import Theme feature
-- **MIT License** - use them, modify them, share them
+Windows Scrivener 3.x theme collection and small compiler.
 
-## How to Install
+## What Is Here
 
-1. Download any `.scrtheme` file from the `/themes` folder
-2. Open Scrivener
-3. Go to `Window > Themes > Import Themes`
-4. Select your downloaded theme file
-5. Apply from `Window > Themes` menu
+- `themes/obsidian_vault_amber.scrtheme`
+- `themes/obsidian_vault_warm.scrtheme`
+- `themes/mani_katti.scrtheme`
+- `themes/salva_la_reina.scrtheme`
+- `themes/majima.scrtheme`
 
-## Theme Previews
+The first two are the legacy template/reference bundles already in this repo.
+The Nosafune-seeded themes are generated from the compiler pipeline.
 
-## Comparison: Free Themes vs. Paid Themes
+## Build
 
-| Feature | Free Collection | Paid Commercial Themes |
-|---------|----------------|------------------------|
-| Price | $0 | €10-20 each |
-| Number of themes | alot | 1-5 per purchase |
-| Windows support | Yes | Varies |
-| macOS support | Yes | Varies |
-| Open source | Yes (MIT) | No |
-| Modify freely | Yes | No |
+Rebuild the generated themes with:
 
-## Download All Themes
+```powershell
+python scripts/scrivener_theme_compiler.py build
+```
 
-Clone this repository:
-```bash
-git clone https://github.com/yourusername/scrivener-free-themes.git
-Or download individual themes from the /themes directory.
+Verify the generated bundles with:
 
-Contributing
-Have a theme you want to add? Submit a pull request.
+```powershell
+python scripts/scrivener_theme_compiler.py verify
+```
 
-License
-MIT - do whatever you want with these themes.
+Rebuild and verify in one pass:
+
+```powershell
+python scripts/scrivener_theme_compiler.py build --verify
+```
+
+Build-time dependency:
+- Python 3
+- `PySide6`
+
+## Install
+
+Download any `.scrtheme` file from `themes/`, then import it in Scrivener via:
+
+`Window > Themes > Import Themes`
+
+## Source Palette Contract
+
+The generated themes use Nosafune seed palettes with these fields:
+
+- `page_background`
+- `body_text`
+- `secondary_text`
+- `accent_text`
+- `ornament_color`
+- `header_footer_color`
+- `chapter_title_color`
+- `scene_break_color`
+
+The compiler expands those seed values into the extra UI roles Scrivener needs.
