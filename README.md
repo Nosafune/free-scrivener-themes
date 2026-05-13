@@ -1,14 +1,40 @@
-# Free Scrivener Themes
+## What's Included
 
-Free Scrivener themes for Windows and macOS. Dark mode, light mode, sepia, high contrast, and everything between. No email required. No cost. Just download and write. More will be added. 
+- **SEVERAL unique themes** covering dark mode, light mode, sepia, high contrast, and custom colors
+- **Windows and macOS support** (tested on Scrivener 3.x)
+- **One-click install** via Scrivener's Import Theme feature
+- **MIT License** - use them, modify them, share them
 
-## Included
+## How to Install
 
-- `themes/obsidian_vault_amber.scrtheme`
-- `themes/obsidian_vault_warm.scrtheme`
+1. Download any `.scrtheme` file from the `/themes` folder
+2. Open Scrivener
+3. Go to `Window > Themes > Import Themes`
+4. Select your downloaded theme file
+5. Apply from `Window > Themes` menu
 
-## Use
+## Theme Previews
 
-Download the theme file you want, then import it in Scrivener's theme settings or place it in your local Scrivener theme folder.
+## Comparison: Free Themes vs. Paid Themes
 
-These files are intended for compatible Scrivener versions on Windows.
+| Feature | Free Collection | Paid Commercial Themes |
+|---------|----------------|------------------------|
+| Price | $0 | €10-20 each |
+| Number of themes | alot | 1-5 per purchase |
+| Windows support | Yes | Varies |
+| macOS support | Yes | Varies |
+| Open source | Yes (MIT) | No |
+| Modify freely | Yes | No |
+
+## Download All Themes
+
+Clone this repository:
+```bash
+git clone https://github.com/yourusername/scrivener-free-themes.git
+Or download individual themes from the /themes directory.
+
+Contributing
+Have a theme you want to add? Submit a pull request.
+
+License
+MIT - do whatever you want with these themes.
