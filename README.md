@@ -1,6 +1,6 @@
 # Free Scrivener Themes
 
-Public theme repository for Scrivener theme bundles.
+Free Scrivener themes for Windows and macOS. Dark mode, light mode, sepia, high contrast, and everything between. No email required. No cost. Just download and write. More will be added. 
 
 ## Included
 
