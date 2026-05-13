@@ -2,6 +2,27 @@
 
 Windows Scrivener 3.x theme collection and small compiler.
 
+## Preview Screenshots
+
+Preview renders generated from the current seed palettes.
+Regenerate them with:
+
+```powershell
+python scripts/render_theme_previews.py
+```
+
+### Mani Katti
+
+![Mani Katti preview](assets/readme-previews/mani_katti.png)
+
+### Salva la Reina
+
+![Salva la Reina preview](assets/readme-previews/salva_la_reina.png)
+
+### Majima No Aniki
+
+![Majima No Aniki preview](assets/readme-previews/majima.png)
+
 ## What Is Here
 
 - `themes/obsidian_vault_amber.scrtheme`
