@@ -1,17 +1,27 @@
-# Free Scrivener Themes
+# Free Scrivener Themes:Downloadable Themes for Windows
 
-Finished Windows Scrivener 3.x themes.
+[Badges: Stars, Downloads, License, Version]
 
-## Themes
+## Why Free Scrivener Themes?
 
-- `themes/mani_katti.scrtheme`
-- `themes/salva_la_reina.scrtheme`
-- `themes/majima.scrtheme`
-- `themes/mav_buster.scrtheme`
-- `themes/commoner_king.scrtheme`
-- `themes/bluegray_folio.scrtheme`
+Scrivener is powerful writing software - it costs like 60 bucks - don't spend another dollar after purchase with this repo.
 
-## Representative Screenshots
+## What's Included
+
+- **alot+ unique themes** covering dark mode, light mode, sepia, high contrast, and custom colors
+- **Windows and planned macOS support** (tested on Scrivener 3.x)
+- **One-click install** via Scrivener's Import Theme feature
+- **MIT License** - use them, modify them, share them
+
+## How to Install
+
+1. Download any `.scrtheme` file from the `/themes` folder
+2. Open Scrivener
+3. Go to `Window > Themes > Import Themes`
+4. Select your downloaded theme file
+5. Apply from `Window > Themes` menu
+
+## Theme Previews
 
 ### Mani Katti
 
@@ -25,17 +35,40 @@ Finished Windows Scrivener 3.x themes.
 
 ![Salva la Reina preview](assets/readme-previews/salva_la_reina.png)
 
-### Mav Buster
 
-![Mav Buster preview](assets/readme-previews/mav_buster.png)
 
-### Commoner King
+## Comparison: Free Themes vs. Paid Themes
 
-![Commoner King preview](assets/readme-previews/commoner_king.png)
+| Feature | Free Collection | Paid Commercial Themes |
+|---------|----------------|------------------------|
+| Price | $0 | €10-20 each |
+| Number of themes | 150+ | 1-5 per purchase |
+| Windows support | Yes | Varies |
+| macOS support | Yes | Varies |
+| Open source | Yes (MIT) | No |
+| Modify freely | Yes | No |
 
-### Bluegray Folio
+## Download All Themes
 
-![Bluegray Folio preview](assets/readme-previews/bluegray_folio.png)
+Clone this repository:
+```bash
+git clone https://github.com/yourusername/scrivener-free-themes.git
+Or download individual themes from the /themes directory.
+
+Contributing
+Have a theme you want to add? Submit a pull request.
+
+License
+MIT - do whatever you want with these themes.
+
+## Themes
+
+- `themes/mani_katti.scrtheme`
+- `themes/salva_la_reina.scrtheme`
+- `themes/majima.scrtheme`
+- `themes/mav_buster.scrtheme`
+- `themes/commoner_king.scrtheme`
+- `themes/bluegray_folio.scrtheme`
 
 ## Install
 
