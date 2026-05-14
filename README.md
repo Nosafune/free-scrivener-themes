@@ -1,27 +1,38 @@
-# Free Scrivener Themes:Downloadable Themes for Windows
+# Free Scrivener Themes
 
-[Badges: Stars, Downloads, License, Version]
+Finished Scrivener 3.x twin themes.
 
-## Why Free Scrivener Themes?
+## Windows Themes
 
-Scrivener is powerful writing software - it costs like 60 bucks - don't spend another dollar after purchase with this repo.
+- `themes/windows/mani_katti.scrtheme`
+- `themes/windows/salva_la_reina.scrtheme`
+- `themes/windows/majima.scrtheme`
+- `themes/windows/mav_buster.scrtheme`
+- `themes/windows/commoner_king.scrtheme`
+- `themes/windows/bluegray_folio.scrtheme`
+- `themes/windows/ayu_mirage.scrtheme`
+- `themes/windows/night_tropics.scrtheme`
+- `themes/windows/dark_clubhouse.scrtheme`
+- `themes/windows/abyssal.scrtheme`
+- `themes/windows/moss.scrtheme`
+- `themes/windows/sovereign.scrtheme`
 
-## What's Included
+## Mac Themes
 
-- **alot+ unique themes** covering dark mode, light mode, sepia, high contrast, and custom colors
-- **Windows and planned macOS support** (tested on Scrivener 3.x)
-- **One-click install** via Scrivener's Import Theme feature
-- **MIT License** - use them, modify them, share them
+- `themes/mac/mani_katti.stheme`
+- `themes/mac/salva_la_reina.stheme`
+- `themes/mac/majima.stheme`
+- `themes/mac/mav_buster.stheme`
+- `themes/mac/commoner_king.stheme`
+- `themes/mac/bluegray_folio.stheme`
+- `themes/mac/ayu_mirage.stheme`
+- `themes/mac/night_tropics.stheme`
+- `themes/mac/dark_clubhouse.stheme`
+- `themes/mac/abyssal.stheme`
+- `themes/mac/moss.stheme`
+- `themes/mac/sovereign.stheme`
 
-## How to Install
-
-1. Download any `.scrtheme` file from the `/themes` folder
-2. Open Scrivener
-3. Go to `Window > Themes > Import Themes`
-4. Select your downloaded theme file
-5. Apply from `Window > Themes` menu
-
-## Theme Previews
+## Representative Screenshots
 
 ### Mani Katti
 
@@ -35,54 +46,40 @@ Scrivener is powerful writing software - it costs like 60 bucks - don't spend an
 
 ![Salva la Reina preview](assets/readme-previews/salva_la_reina.png)
 
+### Mav Buster
 
+![Mav Buster preview](assets/readme-previews/mav_buster.png)
 
-## Comparison: Free Themes vs. Paid Themes
+### Commoner King
 
-| Feature | Free Collection | Paid Commercial Themes |
-|---------|----------------|------------------------|
-| Price | $0 | €10-20 each |
-| Number of themes | 150+ | 1-5 per purchase |
-| Windows support | Yes | Varies |
-| macOS support | Yes | Varies |
-| Open source | Yes (MIT) | No |
-| Modify freely | Yes | No |
+![Commoner King preview](assets/readme-previews/commoner_king.png)
 
-## Download All Themes
+### Bluegray Folio
 
-Clone this repository:
-```bash
-git clone https://github.com/yourusername/scrivener-free-themes.git
-Or download individual themes from the /themes directory.
+![Bluegray Folio preview](assets/readme-previews/bluegray_folio.png)
 
-Contributing
-Have a theme you want to add? Submit a pull request.
+### Night Tropics
 
-License
-MIT - do whatever you want with these themes.
+![Night Tropics preview](assets/readme-previews/night_tropics.png)
 
-## Themes
+### Dark Clubhouse
 
-- `themes/mani_katti.scrtheme`
-- `themes/salva_la_reina.scrtheme`
-- `themes/majima.scrtheme`
-- `themes/mav_buster.scrtheme`
-- `themes/commoner_king.scrtheme`
-- `themes/bluegray_folio.scrtheme`
+![Dark Clubhouse preview](assets/readme-previews/dark_clubhouse.png)
+
+### Abyssal
+
+![Abyssal preview](assets/readme-previews/abyssal.png)
+
+### Moss
+
+![Moss preview](assets/readme-previews/moss.png)
+
+### Sovereign
+
+![Sovereign preview](assets/readme-previews/sovereign.png)
 
 ## Install
 
 Import a theme in Scrivener via:
 
 `Window > Themes > Import Themes`
-
-## Compile Guide
-
-GitHub renders the guide folder index here:
-
-- `Compile_Guide/README.md`
-
-## Notes
-
-- This public repo is release-only.
-- Source and build tooling live outside the public repo.
