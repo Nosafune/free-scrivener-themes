@@ -15,6 +15,15 @@ Finished Scrivener 3.x twin themes.
 - `themes/windows/abyssal.scrtheme`
 - `themes/windows/moss.scrtheme`
 - `themes/windows/sovereign.scrtheme`
+- `themes/windows/amberlight.scrtheme`
+- `themes/windows/el_catedral.scrtheme`
+- `themes/windows/bloodglass.scrtheme`
+- `themes/windows/frostbound.scrtheme`
+- `themes/windows/sunflower.scrtheme`
+- `themes/windows/copper_terminal.scrtheme`
+- `themes/windows/mystify.scrtheme`
+- `themes/windows/scorned_and_damned.scrtheme`
+- `themes/windows/toxin.scrtheme`
 
 ## Mac Themes
 
@@ -29,48 +38,33 @@ Finished Scrivener 3.x twin themes.
 - `themes/mac/abyssal.stheme`
 - `themes/mac/moss.stheme`
 - `themes/mac/sovereign.stheme`
+- `themes/mac/amberlight.stheme`
+- `themes/mac/el_catedral.stheme`
+- `themes/mac/bloodglass.stheme`
+- `themes/mac/frostbound.stheme`
+- `themes/mac/sunflower.stheme`
+- `themes/mac/copper_terminal.stheme`
+- `themes/mac/mystify.stheme`
+- `themes/mac/scorned_and_damned.stheme`
+- `themes/mac/toxin.stheme`
 
 ## Representative Screenshots
-
-### Mani Katti
-
-![Mani Katti preview](assets/readme-previews/mani_katti.png)
-
-### Majima
-
-![Majima preview](assets/readme-previews/majima.png)
-
-### Salva la Reina
-
-![Salva la Reina preview](assets/readme-previews/salva_la_reina.png)
-
-### Mav Buster
-
-![Mav Buster preview](assets/readme-previews/mav_buster.png)
 
 ### Commoner King
 
 ![Commoner King preview](assets/readme-previews/commoner_king.png)
 
-### Bluegray Folio
+### Majima
 
-![Bluegray Folio preview](assets/readme-previews/bluegray_folio.png)
+![Majima preview](assets/readme-previews/majima.png)
+
+### Mav Buster
+
+![Mav Buster preview](assets/readme-previews/mav_buster.png)
 
 ### Night Tropics
 
 ![Night Tropics preview](assets/readme-previews/night_tropics.png)
-
-### Dark Clubhouse
-
-![Dark Clubhouse preview](assets/readme-previews/dark_clubhouse.png)
-
-### Abyssal
-
-![Abyssal preview](assets/readme-previews/abyssal.png)
-
-### Moss
-
-![Moss preview](assets/readme-previews/moss.png)
 
 ### Sovereign
 
