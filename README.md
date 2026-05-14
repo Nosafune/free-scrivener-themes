@@ -10,7 +10,6 @@ Finished Scrivener 3.x twin themes.
 - `themes/windows/mav_buster.scrtheme`
 - `themes/windows/commoner_king.scrtheme`
 - `themes/windows/bluegray_folio.scrtheme`
-- `themes/windows/ayu_mirage.scrtheme`
 - `themes/windows/night_tropics.scrtheme`
 - `themes/windows/dark_clubhouse.scrtheme`
 - `themes/windows/abyssal.scrtheme`
@@ -25,7 +24,6 @@ Finished Scrivener 3.x twin themes.
 - `themes/mac/mav_buster.stheme`
 - `themes/mac/commoner_king.stheme`
 - `themes/mac/bluegray_folio.stheme`
-- `themes/mac/ayu_mirage.stheme`
 - `themes/mac/night_tropics.stheme`
 - `themes/mac/dark_clubhouse.stheme`
 - `themes/mac/abyssal.stheme`
