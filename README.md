@@ -2,6 +2,8 @@
 
 Finished Scrivener 3.x twin themes.
 
+Created by Nosafune.
+
 ## Windows Themes
 
 - `themes/windows/mani_katti.scrtheme`
