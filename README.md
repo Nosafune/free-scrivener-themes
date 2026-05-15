@@ -1,4 +1,4 @@
-# Free Scrivener Themes
+﻿# Free Scrivener Themes
 
 Finished Scrivener 3.x twin themes.
 
@@ -26,6 +26,16 @@ Created by Nosafune.
 - `themes/windows/mystify.scrtheme`
 - `themes/windows/scorned_and_damned.scrtheme`
 - `themes/windows/toxin.scrtheme`
+- `themes/windows/synthwave.scrtheme`
+- `themes/windows/noir.scrtheme`
+- `themes/windows/volcanic.scrtheme`
+- `themes/windows/scholars_den.scrtheme`
+- `themes/windows/sakura.scrtheme`
+- `themes/windows/tempest.scrtheme`
+- `themes/windows/arroyo.scrtheme`
+- `themes/windows/occult.scrtheme`
+- `themes/windows/art_deco.scrtheme`
+- `themes/windows/cosmic_nebula.scrtheme`
 
 ## Mac Themes
 
@@ -49,6 +59,16 @@ Created by Nosafune.
 - `themes/mac/mystify.stheme`
 - `themes/mac/scorned_and_damned.stheme`
 - `themes/mac/toxin.stheme`
+- `themes/mac/synthwave.stheme`
+- `themes/mac/noir.stheme`
+- `themes/mac/volcanic.stheme`
+- `themes/mac/scholars_den.stheme`
+- `themes/mac/sakura.stheme`
+- `themes/mac/tempest.stheme`
+- `themes/mac/arroyo.stheme`
+- `themes/mac/occult.stheme`
+- `themes/mac/art_deco.stheme`
+- `themes/mac/cosmic_nebula.stheme`
 
 ## Representative Screenshots
 
@@ -77,3 +97,4 @@ Created by Nosafune.
 Import a theme in Scrivener via:
 
 `Window > Themes > Import Themes`
+
