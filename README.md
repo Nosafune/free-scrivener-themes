@@ -1,8 +1,18 @@
-﻿# Free Scrivener Themes
+﻿# Free Scrivener Themes for Windows and Mac
 
-Finished Scrivener 3.x twin themes.
+Free Scrivener 3 themes for writers who want a better drafting workspace.
 
 Created by Nosafune.
+
+This collection includes 30 finished Scrivener theme pairs:
+
+- Windows `.scrtheme` files for Scrivener 3 on Windows.
+- Mac `.stheme` files for Scrivener 3 on macOS.
+- Dark themes, light themes, colorful themes, muted writing themes, and high-contrast editor-focused themes.
+
+Download the latest packaged release:
+
+https://github.com/Nosafune/free-scrivener-themes/releases/latest
 
 ## Windows Themes
 
@@ -97,4 +107,10 @@ Created by Nosafune.
 Import a theme in Scrivener via:
 
 `Window > Themes > Import Themes`
+
+On Windows, restart Scrivener after importing or switching themes so the full interface refreshes.
+
+## About
+
+These are free custom Scrivener themes for novel writing, screenwriting, long-form drafting, outlining, and daily writing sessions. The theme files are organized by platform so Scrivener users can download only the Windows or Mac package they need.
 
