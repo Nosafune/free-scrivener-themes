@@ -15,6 +15,14 @@ Download the latest packaged release:
 
 https://github.com/Nosafune/free-scrivener-themes/releases/latest
 
+## Scrivener App Icon
+
+Optional icon asset:
+
+- `assets/icons/scrivener-app-icon.ico`
+
+Use it for a custom Scrivener shortcut icon on Windows.
+
 ## Windows Themes
 
 - `themes/windows/mani_katti.scrtheme`
