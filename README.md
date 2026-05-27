@@ -1,14 +1,15 @@
-﻿# Free Scrivener Themes for Windows and Mac
+# Free Scrivener Themes for Windows
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
 Created by Nosafune.
 
-This collection includes 30 finished Scrivener theme pairs:
+This collection includes 30 finished Scrivener themes:
 
 - Windows `.scrtheme` files for Scrivener 3 on Windows.
-- Mac `.stheme` files for Scrivener 3 on macOS.
 - Dark themes, light themes, colorful themes, muted writing themes, and high-contrast editor-focused themes.
+
+Mac `.stheme` files were pulled after user reports that Scrivener for macOS was not applying backgrounds correctly. Mac support is paused until it can be fixed and verified on a real Mac.
 
 Download the latest packaged release:
 
@@ -47,39 +48,6 @@ https://github.com/Nosafune/free-scrivener-themes/releases/latest
 - `themes/windows/art_deco.scrtheme`
 - `themes/windows/cosmic_nebula.scrtheme`
 
-## Mac Themes
-
-- `themes/mac/mani_katti.stheme`
-- `themes/mac/salva_la_reina.stheme`
-- `themes/mac/majima.stheme`
-- `themes/mac/mav_buster.stheme`
-- `themes/mac/commoner_king.stheme`
-- `themes/mac/bluegray_folio.stheme`
-- `themes/mac/night_tropics.stheme`
-- `themes/mac/dark_clubhouse.stheme`
-- `themes/mac/abyssal.stheme`
-- `themes/mac/moss.stheme`
-- `themes/mac/sovereign.stheme`
-- `themes/mac/amberlight.stheme`
-- `themes/mac/el_catedral.stheme`
-- `themes/mac/bloodglass.stheme`
-- `themes/mac/frostbound.stheme`
-- `themes/mac/sunflower.stheme`
-- `themes/mac/copper_terminal.stheme`
-- `themes/mac/mystify.stheme`
-- `themes/mac/scorned_and_damned.stheme`
-- `themes/mac/toxin.stheme`
-- `themes/mac/synthwave.stheme`
-- `themes/mac/noir.stheme`
-- `themes/mac/volcanic.stheme`
-- `themes/mac/scholars_den.stheme`
-- `themes/mac/sakura.stheme`
-- `themes/mac/tempest.stheme`
-- `themes/mac/arroyo.stheme`
-- `themes/mac/occult.stheme`
-- `themes/mac/art_deco.stheme`
-- `themes/mac/cosmic_nebula.stheme`
-
 ## Representative Screenshots
 
 ### Commoner King
@@ -112,5 +80,4 @@ On Windows, restart Scrivener after importing or switching themes so the full in
 
 ## About
 
-These are free custom Scrivener themes for novel writing, screenwriting, long-form drafting, outlining, and daily writing sessions. The theme files are organized by platform so Scrivener users can download only the Windows or Mac package they need.
-
+These are free custom Scrivener themes for novel writing, screenwriting, long-form drafting, outlining, and daily writing sessions. The current verified package is Windows-only.
