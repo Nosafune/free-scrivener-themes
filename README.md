@@ -15,6 +15,22 @@ Download the latest packaged release:
 
 https://github.com/Nosafune/free-scrivener-themes/releases/latest
 
+## Changelog
+
+### Current
+
+- Windows themes are the verified public package.
+- Mac themes are paused after tester reports that some `.stheme` backgrounds did not apply correctly.
+- A single corrected Night Tropics Mac test file is available as a prerelease for tester confirmation.
+- Two Windows-only Cobalt2 request themes are available as a prerelease test pack.
+- A Scrivener app icon asset and PNG preview were added for custom Windows shortcuts.
+
+### v1.0.0
+
+- Released 30 Windows `.scrtheme` files.
+- Included representative screenshots and the compile guide.
+- Pulled Mac `.stheme` files after user reports; Mac support remains pending real Mac verification.
+
 ## Scrivener App Icon
 
 Optional icon asset:
