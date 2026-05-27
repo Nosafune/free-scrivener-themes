@@ -19,6 +19,8 @@ https://github.com/Nosafune/free-scrivener-themes/releases/latest
 
 Optional icon asset:
 
+![Scrivener app icon preview](assets/icons/scrivener-app-icon-preview.png)
+
 - `assets/icons/scrivener-app-icon.ico`
 
 Use it for a custom Scrivener shortcut icon on Windows.
