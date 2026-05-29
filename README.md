@@ -38,6 +38,8 @@ Optional icon asset:
 ![Scrivener app icon preview](assets/icons/scrivener-app-icon-preview.png)
 
 - `assets/icons/scrivener-app-icon.ico`
+- `assets/icons/scrivener-blue-alt-app-icon.ico`
+- `assets/icons/scrivener-mani-katti-app-icon.ico`
 
 Use it for a custom Scrivener shortcut icon on Windows.
 
