@@ -2,38 +2,77 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-Created by Nosafune.
+30 finished themes — dark, light, colorful, muted, and high-contrast. Built for long writing sessions.
 
-This collection includes 30 finished Scrivener themes:
+Download the latest release:
 
-- Windows `.scrtheme` files for Scrivener 3 on Windows.
-- Dark themes, light themes, colorful themes, muted writing themes, and high-contrast editor-focused themes.
+**https://github.com/Nosafune/free-scrivener-themes/releases/latest**
 
-Mac `.stheme` files were pulled after user reports that Scrivener for macOS was not applying backgrounds correctly. Mac support is paused until it can be fixed and verified on a real Mac.
+If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https://ko-fi.com/nosafune)
 
-Download the latest packaged release:
+---
 
-https://github.com/Nosafune/free-scrivener-themes/releases/latest
+## Themes
 
-## Changelog
+Windows `.scrtheme` files for Scrivener 3. Import via `Window > Themes > Import Themes`, then restart Scrivener.
 
-### Current
+| Theme | Vibe |
+|---|---|
+| Mani Katti | Dark gold — clean and focused |
+| Mav Buster | Warm orange on dark — high contrast |
+| Majima | Deep purple — moody and immersive |
+| Night Tropics | Dark teal — lush and atmospheric |
+| Sovereign | Rich navy — formal, composed |
+| Commoner King | Earthy mid-tone — comfortable long sessions |
+| Amberlight | Amber on near-black — easy on the eyes |
+| Abyssal | Deep blue-black — minimal distraction |
+| Moss | Muted green — calm, organic feel |
+| Noir | High contrast black and white |
+| Synthwave | Purple and pink — retro neon |
+| Bloodglass | Deep red — dramatic |
+| Occult | Dark with muted purple accents |
+| Scorned and Damned | Dark and desaturated |
+| Copper Terminal | Warm copper on dark — terminal feel |
+| Frostbound | Cool blue-grey — clean winter tones |
+| Cosmic Nebula | Deep space purple and blue |
+| Volcanic | Dark with orange-red accents |
+| Sakura | Soft pink — light and gentle |
+| Sunflower | Warm yellow — bright and open |
+| El Catedral | Warm stone — old world feel |
+| Scholar's Den | Rich brown — library atmosphere |
+| Art Deco | Geometric gold on dark |
+| Bluegray Folio | Professional blue-grey |
+| Arroyo | Warm desert tones |
+| Tempest | Cool stormy blue-grey |
+| Mystify | Shifting blue-purple |
+| Toxin | Acidic green on dark |
+| Dark Clubhouse | Muted dark social feel |
+| Salva la Reina | Deep jewel tones |
 
-- Windows themes are the verified public package.
-- Mac themes are paused after tester reports that some `.stheme` backgrounds did not apply correctly.
-- A single corrected Night Tropics Mac test file is available as a prerelease for tester confirmation.
-- Two Windows-only Cobalt2 request themes are available as a prerelease test pack.
-- A Scrivener app icon asset and PNG preview were added for custom Windows shortcuts.
+---
 
-### v1.0.0
+## Screenshots
 
-- Released 30 Windows `.scrtheme` files.
-- Included representative screenshots and the compile guide.
-- Pulled Mac `.stheme` files after user reports; Mac support remains pending real Mac verification.
+### Commoner King
+![Commoner King preview](assets/readme-previews/commoner_king.png)
+
+### Majima
+![Majima preview](assets/readme-previews/majima.png)
+
+### Mav Buster
+![Mav Buster preview](assets/readme-previews/mav_buster.png)
+
+### Night Tropics
+![Night Tropics preview](assets/readme-previews/night_tropics.png)
+
+### Sovereign
+![Sovereign preview](assets/readme-previews/sovereign.png)
+
+---
 
 ## Scrivener App Icon
 
-Optional icon asset:
+Optional custom icon asset for your Scrivener shortcut on Windows:
 
 ![Scrivener app icon preview](assets/icons/scrivener-app-icon-preview.png)
 
@@ -41,71 +80,27 @@ Optional icon asset:
 - `assets/icons/scrivener-blue-alt-app-icon.ico`
 - `assets/icons/scrivener-mani-katti-app-icon.ico`
 
-Use it for a custom Scrivener shortcut icon on Windows.
+---
 
-## Windows Themes
+## Mac Support
 
-- `themes/windows/mani_katti.scrtheme`
-- `themes/windows/salva_la_reina.scrtheme`
-- `themes/windows/majima.scrtheme`
-- `themes/windows/mav_buster.scrtheme`
-- `themes/windows/commoner_king.scrtheme`
-- `themes/windows/bluegray_folio.scrtheme`
-- `themes/windows/night_tropics.scrtheme`
-- `themes/windows/dark_clubhouse.scrtheme`
-- `themes/windows/abyssal.scrtheme`
-- `themes/windows/moss.scrtheme`
-- `themes/windows/sovereign.scrtheme`
-- `themes/windows/amberlight.scrtheme`
-- `themes/windows/el_catedral.scrtheme`
-- `themes/windows/bloodglass.scrtheme`
-- `themes/windows/frostbound.scrtheme`
-- `themes/windows/sunflower.scrtheme`
-- `themes/windows/copper_terminal.scrtheme`
-- `themes/windows/mystify.scrtheme`
-- `themes/windows/scorned_and_damned.scrtheme`
-- `themes/windows/toxin.scrtheme`
-- `themes/windows/synthwave.scrtheme`
-- `themes/windows/noir.scrtheme`
-- `themes/windows/volcanic.scrtheme`
-- `themes/windows/scholars_den.scrtheme`
-- `themes/windows/sakura.scrtheme`
-- `themes/windows/tempest.scrtheme`
-- `themes/windows/arroyo.scrtheme`
-- `themes/windows/occult.scrtheme`
-- `themes/windows/art_deco.scrtheme`
-- `themes/windows/cosmic_nebula.scrtheme`
+Mac `.stheme` files are paused after user reports that some backgrounds weren't applying correctly on macOS. A single corrected Night Tropics test file is available as a prerelease for confirmation. Full Mac support will resume once verified on a real Mac.
 
-## Representative Screenshots
+---
 
-### Commoner King
+## Changelog
 
-![Commoner King preview](assets/readme-previews/commoner_king.png)
+### Current
+- Windows themes are the verified public package
+- Mac themes paused pending real Mac verification
+- Night Tropics Mac test file available as prerelease
+- Cobalt2 request themes available as Windows prerelease test pack
 
-### Majima
+### v1.0.0
+- Released 30 Windows `.scrtheme` files
+- Included screenshots and compile guide
+- Pulled Mac `.stheme` files after user reports
 
-![Majima preview](assets/readme-previews/majima.png)
+---
 
-### Mav Buster
-
-![Mav Buster preview](assets/readme-previews/mav_buster.png)
-
-### Night Tropics
-
-![Night Tropics preview](assets/readme-previews/night_tropics.png)
-
-### Sovereign
-
-![Sovereign preview](assets/readme-previews/sovereign.png)
-
-## Install
-
-Import a theme in Scrivener via:
-
-`Window > Themes > Import Themes`
-
-On Windows, restart Scrivener after importing or switching themes so the full interface refreshes.
-
-## About
-
-These are free custom Scrivener themes for novel writing, screenwriting, long-form drafting, outlining, and daily writing sessions. The current verified package is Windows-only.
+Made by [Nosafune](https://ko-fi.com/nosafune). These are free forever.
