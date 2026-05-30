@@ -1,8 +1,8 @@
-# Free Scrivener Themes for Windows
+# Free Scrivener Themes for Windows and Mac
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-30 finished themes — dark, light, colorful, muted, and high-contrast. Built for long writing sessions.
+30 finished themes — dark, light, colorful, muted, and high-contrast. Built for long writing sessions. Available for both Windows and Mac.
 
 Download the latest release:
 
@@ -14,7 +14,9 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 
 ## Themes
 
-Windows `.scrtheme` files for Scrivener 3. Import via `Window > Themes > Import Themes`, then restart Scrivener.
+**Windows** — `.scrtheme` files for Scrivener 3. Import via `Window > Themes > Import Themes`, then restart Scrivener.
+
+**Mac** — `.stheme` files for Scrivener 3. Import via `Window > Themes > Import Themes`.
 
 | Theme | Vibe |
 |---|---|
@@ -82,24 +84,22 @@ Optional custom icon asset for your Scrivener shortcut on Windows:
 
 ---
 
-## Mac Support
-
-Mac `.stheme` files are paused after user reports that some backgrounds weren't applying correctly on macOS. A single corrected Night Tropics test file is available as a prerelease for confirmation. Full Mac support will resume once verified on a real Mac.
-
----
-
 ## Changelog
 
 ### Current
-- Windows themes are the verified public package
-- Mac themes paused pending real Mac verification
-- Night Tropics Mac test file available as prerelease
-- Cobalt2 request themes available as Windows prerelease test pack
+- Mac `.stheme` files restored — 30 themes, one twin for every Windows theme
+- Windows themes remain the verified primary package
 
 ### v1.0.0
 - Released 30 Windows `.scrtheme` files
 - Included screenshots and compile guide
-- Pulled Mac `.stheme` files after user reports
+- Pulled Mac `.stheme` files after user reports of background issues on macOS
+
+---
+
+## Special Thanks
+
+**u/DaryenKayne** on Reddit — tested the corrected Mac themes on a real Mac and confirmed they apply correctly. The Mac release wouldn't have happened without that verification.
 
 ---
 
