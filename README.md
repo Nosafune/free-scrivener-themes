@@ -2,21 +2,63 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-30 finished themes — dark, light, colorful, muted, and high-contrast. Built for long writing sessions. Available for both Windows and Mac.
-
-Download the latest release:
-
-**https://github.com/Nosafune/free-scrivener-themes/releases/latest**
+**40 themes total** across two releases — dark, light, colorful, muted, and high-contrast. Built for long writing sessions. Available for both Windows and Mac.
 
 If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https://ko-fi.com/nosafune)
 
 ---
 
-## Themes
+## Downloads
 
-**Windows** — `.scrtheme` files for Scrivener 3. Import via `Window > Themes > Import Themes`, then restart Scrivener.
+### v2.0.0 — 10-Pack (100 Downloads Celebration)
+**https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0**
 
-**Mac** — `.stheme` files for Scrivener 3. Import via `Window > Themes > Import Themes`.
+10 new themes for Windows and Mac, released to celebrate 100 downloads.
+
+### v1.0.0 — Original 30
+**https://github.com/Nosafune/free-scrivener-themes/releases/tag/v1.0.0**
+
+The original 30 Windows themes.
+
+### Mac Themes
+Mac `.stheme` files are available for all 40 themes as individual downloads on their respective release pages, or as a full pack zip.
+
+---
+
+## Scrivener App Icons
+
+Three custom `.ico` files for your Scrivener shortcut on Windows — available as named downloads on the v2.0.0 release page:
+
+![Scrivener app icon preview](assets/icons/scrivener-app-icon-preview.png)
+
+| File | Description |
+|---|---|
+| `scrivener-app-icon.ico` | Clean standard icon |
+| `scrivener-blue-alt-app-icon.ico` | Blue alt variant |
+| `scrivener-mani-katti-app-icon.ico` | Mani Katti themed variant |
+
+To use: right-click your Scrivener shortcut → Properties → Change Icon → browse to the `.ico` file.
+
+---
+
+## v2.0.0 Themes
+
+| Theme | Vibe |
+|---|---|
+| Shadow Magic | Deep indigo with violet accents |
+| Future Sequence | Cool tech blue-green |
+| Save Crystal | Crystalline blue and white |
+| Sheikah Slate | Dark grey with amber and blue |
+| Gerudo Sun | Warm desert gold and terracotta |
+| Trodain | Muted castle grey-green |
+| Mystic | Deep jewelled teal |
+| Twice Dead Shadow | Cold desaturated dark |
+| Ink Blood | Near-black with deep red accents |
+| Plain Jane | Clean light theme — minimal distraction |
+
+---
+
+## v1.0.0 Themes
 
 | Theme | Vibe |
 |---|---|
@@ -72,34 +114,27 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 
 ---
 
-## Scrivener App Icon
+## Install
 
-Optional custom icon asset for your Scrivener shortcut on Windows:
-
-![Scrivener app icon preview](assets/icons/scrivener-app-icon-preview.png)
-
-- `assets/icons/scrivener-app-icon.ico`
-- `assets/icons/scrivener-blue-alt-app-icon.ico`
-- `assets/icons/scrivener-mani-katti-app-icon.ico`
+Import in Scrivener via `Window > Themes > Import Themes`. Restart Scrivener after importing on Windows.
 
 ---
 
 ## Changelog
 
-### Current
-- Mac `.stheme` files restored — 30 themes, one twin for every Windows theme
-- Windows themes remain the verified primary package
+### v2.0.0
+- Released 10 new Windows and Mac themes as a 100-download celebration pack
+- Added three custom Scrivener `.ico` files as named release assets
 
 ### v1.0.0
 - Released 30 Windows `.scrtheme` files
-- Included screenshots and compile guide
-- Pulled Mac `.stheme` files after user reports of background issues on macOS
+- Mac `.stheme` twins added post-launch, confirmed working on macOS
 
 ---
 
 ## Special Thanks
 
-**u/DaryenKayne** on Reddit — tested the corrected Mac themes on a real Mac and confirmed they apply correctly. The Mac release wouldn't have happened without that verification.
+**u/DaryenKayne** on Reddit — tested the Mac themes on a real Mac and confirmed they apply correctly. The Mac release wouldn't have happened without that verification.
 
 ---
 
