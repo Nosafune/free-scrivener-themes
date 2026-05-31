@@ -2,7 +2,7 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-**40 themes total** across two releases — dark, light, colorful, muted, and high-contrast. Built for long writing sessions. Available for both Windows and Mac.
+**40 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
 
 If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https://ko-fi.com/nosafune)
 
@@ -10,24 +10,27 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 
 ## Downloads
 
-### v2.0.0 — 10-Pack (100 Downloads Celebration)
-**https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0**
+### v2.0.0 - 10-Pack
 
-10 new themes for Windows and Mac, released to celebrate 100 downloads.
+https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
-### v1.0.0 — Original 30
-**https://github.com/Nosafune/free-scrivener-themes/releases/tag/v1.0.0**
+10 new themes for Windows and Mac, released to celebrate 100+ downloads of the original pack.
 
-The original 30 Windows themes.
+### v1.0.0 - Original 30
+
+https://github.com/Nosafune/free-scrivener-themes/releases/tag/v1.0.0
+
+The original 30 themes. Windows `.scrtheme` files and Mac `.stheme` twins are available as release assets.
 
 ### Mac Themes
-Mac `.stheme` files are available for all 40 themes as individual downloads on their respective release pages, or as a full pack zip.
+
+Mac `.stheme` files are available for all 40 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
 
 ---
 
 ## Scrivener App Icons
 
-Three custom `.ico` files for your Scrivener shortcut on Windows — available as named downloads on the v2.0.0 release page:
+Three custom `.ico` files for your Scrivener shortcut on Windows are available as named downloads on the release pages:
 
 ![Scrivener app icon preview](assets/icons/scrivener-app-icon-preview.png)
 
@@ -37,7 +40,7 @@ Three custom `.ico` files for your Scrivener shortcut on Windows — available a
 | `scrivener-blue-alt-app-icon.ico` | Blue alt variant |
 | `scrivener-mani-katti-app-icon.ico` | Mani Katti themed variant |
 
-To use: right-click your Scrivener shortcut → Properties → Change Icon → browse to the `.ico` file.
+To use one: right-click your Scrivener shortcut, open Properties, choose Change Icon, then browse to the `.ico` file.
 
 ---
 
@@ -54,7 +57,7 @@ To use: right-click your Scrivener shortcut → Properties → Change Icon → b
 | Mystic | Deep jewelled teal |
 | Twice Dead Shadow | Cold desaturated dark |
 | Ink Blood | Near-black with deep red accents |
-| Plain Jane | Clean light theme — minimal distraction |
+| Plain Jane | Clean light theme, minimal distraction |
 
 ---
 
@@ -62,28 +65,28 @@ To use: right-click your Scrivener shortcut → Properties → Change Icon → b
 
 | Theme | Vibe |
 |---|---|
-| Mani Katti | Dark gold — clean and focused |
-| Mav Buster | Warm orange on dark — high contrast |
-| Majima | Deep purple — moody and immersive |
-| Night Tropics | Dark teal — lush and atmospheric |
-| Sovereign | Rich navy — formal, composed |
-| Commoner King | Earthy mid-tone — comfortable long sessions |
-| Amberlight | Amber on near-black — easy on the eyes |
-| Abyssal | Deep blue-black — minimal distraction |
-| Moss | Muted green — calm, organic feel |
+| Mani Katti | Dark gold, clean and focused |
+| Mav Buster | Warm orange on dark, high contrast |
+| Majima | Deep purple, moody and immersive |
+| Night Tropics | Dark teal, lush and atmospheric |
+| Sovereign | Rich navy, formal and composed |
+| Commoner King | Earthy mid-tone, comfortable long sessions |
+| Amberlight | Amber on near-black, easy on the eyes |
+| Abyssal | Deep blue-black, minimal distraction |
+| Moss | Muted green, calm and organic |
 | Noir | High contrast black and white |
-| Synthwave | Purple and pink — retro neon |
-| Bloodglass | Deep red — dramatic |
+| Synthwave | Purple and pink, retro neon |
+| Bloodglass | Deep red, dramatic |
 | Occult | Dark with muted purple accents |
 | Scorned and Damned | Dark and desaturated |
-| Copper Terminal | Warm copper on dark — terminal feel |
-| Frostbound | Cool blue-grey — clean winter tones |
+| Copper Terminal | Warm copper on dark, terminal feel |
+| Frostbound | Cool blue-grey, clean winter tones |
 | Cosmic Nebula | Deep space purple and blue |
 | Volcanic | Dark with orange-red accents |
-| Sakura | Soft pink — light and gentle |
-| Sunflower | Warm yellow — bright and open |
-| El Catedral | Warm stone — old world feel |
-| Scholar's Den | Rich brown — library atmosphere |
+| Sakura | Soft pink, light and gentle |
+| Sunflower | Warm yellow, bright and open |
+| El Catedral | Warm stone, old world feel |
+| Scholar's Den | Rich brown, library atmosphere |
 | Art Deco | Geometric gold on dark |
 | Bluegray Folio | Professional blue-grey |
 | Arroyo | Warm desert tones |
@@ -98,43 +101,56 @@ To use: right-click your Scrivener shortcut → Properties → Change Icon → b
 ## Screenshots
 
 ### Commoner King
+
 ![Commoner King preview](assets/readme-previews/commoner_king.png)
 
 ### Majima
+
 ![Majima preview](assets/readme-previews/majima.png)
 
 ### Mav Buster
+
 ![Mav Buster preview](assets/readme-previews/mav_buster.png)
 
 ### Night Tropics
+
 ![Night Tropics preview](assets/readme-previews/night_tropics.png)
 
 ### Sovereign
+
 ![Sovereign preview](assets/readme-previews/sovereign.png)
 
 ---
 
 ## Install
 
-Import in Scrivener via `Window > Themes > Import Themes`. Restart Scrivener after importing on Windows.
+Import in Scrivener via:
+
+`Window > Themes > Import Themes`
+
+Restart Scrivener after importing or switching themes so the full interface refreshes.
 
 ---
 
 ## Changelog
 
 ### v2.0.0
-- Released 10 new Windows and Mac themes as a 100-download celebration pack
-- Added three custom Scrivener `.ico` files as named release assets
+
+- Released 10 new Windows and Mac themes as a 100+ download celebration pack.
+- Added individual `.scrtheme` and `.stheme` assets for per-theme downloads.
+- Added three custom Scrivener `.ico` files as named release assets.
 
 ### v1.0.0
-- Released 30 Windows `.scrtheme` files
-- Mac `.stheme` twins added post-launch, confirmed working on macOS
+
+- Released 30 Windows `.scrtheme` files.
+- Mac `.stheme` twins were added after launch and confirmed working on macOS.
+- Included representative screenshots and the compile guide.
 
 ---
 
 ## Special Thanks
 
-**u/DaryenKayne** on Reddit — tested the Mac themes on a real Mac and confirmed they apply correctly. The Mac release wouldn't have happened without that verification.
+Thanks to the Reddit Mac tester who checked the `.stheme` files on a real Mac and confirmed the Mac themes apply correctly.
 
 ---
 
