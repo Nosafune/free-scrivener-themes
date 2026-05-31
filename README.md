@@ -2,7 +2,7 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-**40 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
+**42 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
 
 If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https://ko-fi.com/nosafune)
 
@@ -10,11 +10,11 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 
 ## Downloads
 
-### v2.0.0 - 10-Pack
+### v2.0.0 - 12-Pack
 
 https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
-10 new themes for Windows and Mac, released to celebrate 100+ downloads of the original pack.
+12 new themes for Windows and Mac, released to celebrate 100+ downloads of the original pack.
 
 ### v1.0.0 - Original 30
 
@@ -24,7 +24,7 @@ The original 30 themes. Windows `.scrtheme` files and Mac `.stheme` twins are av
 
 ### Mac Themes
 
-Mac `.stheme` files are available for all 40 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
+Mac `.stheme` files are available for all 42 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
 
 ---
 
@@ -58,6 +58,8 @@ To use one: right-click your Scrivener shortcut, open Properties, choose Change 
 | Twice Dead Shadow | Cold desaturated dark |
 | Ink Blood | Near-black with deep red accents |
 | Plain Jane | Clean light theme, minimal distraction |
+| Cobalt2 Luxe | Deep blue writing-safe Cobalt2 theme |
+| Cobalt2 IDE | Brighter IDE-style Cobalt2 theme |
 
 ---
 
@@ -136,8 +138,9 @@ Restart Scrivener after importing or switching themes so the full interface refr
 
 ### v2.0.0
 
-- Released 10 new Windows and Mac themes as a 100+ download celebration pack.
+- Released 12 new Windows and Mac themes as a 100+ download celebration pack.
 - Added individual `.scrtheme` and `.stheme` assets for per-theme downloads.
+- Added Cobalt2 Luxe and Cobalt2 IDE as Windows and Mac twin themes.
 - Added three custom Scrivener `.ico` files as named release assets.
 
 ### v1.0.0
