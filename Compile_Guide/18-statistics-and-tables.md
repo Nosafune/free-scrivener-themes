@@ -9,7 +9,7 @@ tags:
   - tables
   - placeholders
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Statistics & Tables
