@@ -9,7 +9,7 @@ tags:
   - export
   - workflow
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Compile only a Collection
