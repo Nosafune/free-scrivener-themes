@@ -8,7 +8,6 @@ tags:
   - separators
   - formatting
 difficulty: intermediate
-status: complete
 ---
 
 # Separators
@@ -17,111 +16,55 @@ status: complete
 
 Separators control what appears between compiled Binder items: nothing, a blank line, a page break, a symbol, or custom text.
 
-## Why this matters
+## Why separators matter
 
+Scrivener projects are modular -- a novel might be 80 separate Binder documents. When Compile assembles them into one output file, it needs rules for what goes between each item.
 
-Separators are critical because Scrivener projects are modular.
+Separators answer: What goes between Scene A and Scene B? What goes between Chapter Two and Chapter Three?
 
-When many small documents become one output file, Compile needs to know how to join them.
+## Common separator values
 
-Separators answer:
-
-```text
-What goes between these two compiled items?
 ```
-
-Examples:
-
-- page break before a chapter
-- blank line between sections
-- scene break symbol
-- no separator between fragments
-- custom divider
-
-
-## Core workflow
-
-
-Basic workflow:
-
-1. Identify the boundary being controlled.
-2. Determine the relevant Section Layouts or compile settings.
-3. Choose separator behavior.
-4. Test with adjacent documents.
-5. Test with empty or title-only documents.
-6. Test with chapter transitions and scene transitions.
-
-Common separators:
-
-```text
 No separator
 Single return
 Empty line
 Page break
 #
 ***
-Custom text
+Custom text or symbol
 ```
-
-
-## Common mistakes
-
-
-### Using separators to fix structure problems
-
-If chapters and scenes are assigned incorrectly, separators become chaotic.
-
-### Inconsistent scene documents
-
-Some scenes may have titles, some may not.
-
-### Using manual scene break symbols everywhere
-
-Let Compile insert consistent separators when possible.
-
-### Forgetting ebook behavior
-
-Page breaks and separators behave differently in reflowable formats.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
 
 ## Separator decision table
 
 | Boundary | Common separator |
 |---|---|
 | Part to Chapter | page break |
-| Chapter to Scene | page break or no extra separator |
-| Scene to Scene | scene break symbol or blank line |
+| Chapter to first Scene | no separator (chapter heading is the break) |
+| Scene to Scene | scene break symbol or empty line |
 | Front matter items | page break |
 | Appendix entries | page break or heading separator |
 | Micro-fragments | no separator |
 
+## How separators are configured
+
+Separators are set in two places:
+
+- **Section Layout settings:** each layout can define its own separator before and after
+- **Separators pane in the Format Designer:** global overrides for between-item behavior
+
+Check both locations if separator output looks wrong.
+
 ## Testing tip
 
-Create three consecutive scenes:
+Create three consecutive scenes and compile them. If the separator result looks wrong for three scenes, it will look wrong everywhere. Isolate the problem on a small test before troubleshooting the full manuscript.
 
-```text
-Scene A
-Scene B
-Scene C
-```
+## Common mistakes
 
-Compile them with your separator rule. If the result looks wrong here, it will look wrong everywhere.
+**Using separators to fix structure problems.** If chapters and scenes are assigned incorrectly, separator output becomes chaotic. Fix the structure and assignment first.
 
+**Using manual scene break symbols in every document.** Let Compile insert consistent separators from the Section Layout or Separators settings. Manual symbols create inconsistency and are hard to change globally.
+
+**Forgetting ebook behavior.** Page breaks and separators behave differently in reflowable ebook formats. Test EPUB output separately from PDF output.
 
 ## Related pages
 
