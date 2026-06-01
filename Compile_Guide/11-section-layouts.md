@@ -8,122 +8,73 @@ tags:
   - section-layouts
   - formatting
 difficulty: intermediate
-status: complete
 ---
 
 # Section Layouts
 
 ## Fast answer
 
-Section Layouts are formatting recipes inside a Compile Format. They define how Binder items assigned to them will appear in the compiled output.
+Section Layouts are formatting recipes inside a Compile Format. They define how Binder items assigned to them appear in compiled output.
 
-## Why this matters
+## What a Section Layout controls
 
+- Whether the Binder title appears as a heading
+- Whether the document text is included
+- Title prefix and suffix (where numbering placeholders go)
+- Whether the item starts on a new page
+- Separator behavior before and after
+- Paragraph formatting (font, size, spacing, indent)
+- How styles are treated
+- Whether editor formatting is preserved (As-Is)
 
-Section Layouts control output behavior at the Binder-item level.
+## How they work
 
-They can control:
+Section Layouts live inside a Compile Format. You assign them to Section Types in the Compile dialog. The result:
 
-- title inclusion
-- text inclusion
-- title prefixes
-- title suffixes
-- numbering
-- page breaks
-- separators
-- paragraph formatting
-- heading treatment
-- style handling
-
-They are not the same as Editor styles.
-
-
-## Core workflow
-
-
-Use Section Layouts by assigning them to Section Types.
-
-Example:
-
-```text
+```
 Section Type: Chapter Heading
 Section Layout: Chapter Number and Title
+  -> prints "Chapter Three" on a new page
 
 Section Type: Scene
 Section Layout: Section Text
+  -> prints document text with no heading, after a separator
 ```
-
-A layout can include:
-
-```text
-Chapter <$t>
-<$title>
-```
-
-or simply compile the text without a title.
-
-
-## Common mistakes
-
-
-### Choosing layouts by name only
-
-Preview and test them.
-
-### Editing the layout when assignment is wrong
-
-First confirm assignment.
-
-### Expecting one layout to do everything
-
-Different document types usually need different layouts.
-
-### Forgetting title/text inclusion
-
-A layout may include the Binder title, the document text, both, or neither.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
 
 ## Layout design checklist
 
 For each Section Layout, decide:
 
-- Does it print the Binder title?
-- Does it print the document text?
+- Does it print the Binder title as a heading?
+- Does it print the document body text?
 - Does it add automatic numbering?
 - Does it start on a new page?
-- Does it add a separator before or after?
-- Does it preserve Editor formatting?
-- Does it override paragraph formatting?
+- Does it preserve editor formatting (As-Is), or override it?
 - Does it need different behavior for ebook vs print?
 
 ## High-value layout types
 
-- Part title
-- Chapter title
-- Chapter title + text
-- Scene text
+- Part title (new page, large heading, no body text)
+- Chapter title with page break
+- Chapter title plus body text (for short chapter-per-document structures)
+- Scene text only (no heading, continues from separator)
 - Appendix heading
 - Front matter As-Is
 - Back matter As-Is
 
+## Common mistakes
+
+**Choosing layouts by name only.** Two layouts with similar names can have completely different page break or title behavior. Preview and test.
+
+**Editing the layout when the assignment is wrong.** Confirm which layout is actually assigned before editing anything.
+
+**Expecting one layout to handle everything.** Parts, chapters, scenes, and appendices all typically need different layouts.
+
+**Forgetting title vs text inclusion.** A layout may include the Binder title, the document text, both, or neither. Check this explicitly.
 
 ## Related pages
 
 - [Assigning Section Layouts to Section Types](07-assigning-section-layouts-to-section-types.md)
 - [Using Compile Formats](06-using-compile-formats.md)
 - [Automatic Numbering](03-automatic-numbering.md)
+- [Using the Compile Format Designer](09-using-the-compile-format-designer.md)
