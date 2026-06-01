@@ -9,7 +9,7 @@ tags:
   - section-layouts
   - workflow
 difficulty: beginner
-status: draft
+status: complete
 ---
 
 # Assigning Section Layouts to Section Types
