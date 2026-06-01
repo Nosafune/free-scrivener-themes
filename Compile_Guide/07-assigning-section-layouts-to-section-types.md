@@ -9,50 +9,35 @@ tags:
   - section-layouts
   - workflow
 difficulty: beginner
-status: complete
 ---
 
 # Assigning Section Layouts to Section Types
 
 ## Fast answer
 
-This is the central Compile step: match what each Binder item is to how that kind of item should look in the output.
+This is the central Compile step: match what each Binder item is (Section Type) to how that kind of item should look in the output (Section Layout).
 
 ## Why this matters
 
-
 Section Types and Section Layouts are the heart of Scrivener 3 Compile.
 
-Section Types answer:
+- Section Types answer: **What is this Binder item?**
+- Section Layouts answer: **How should this type appear when exported?**
 
-```text
-What is this Binder item?
-```
+The assignment step connects those two answers. Every compile problem that is not a Contents problem is usually an assignment problem.
 
-Section Layouts answer:
-
-```text
-How should this type of item look when exported?
-```
-
-The assignment step connects those two ideas.
-
-
-## Core workflow
-
-
-Basic workflow:
+## How to assign
 
 1. Open Compile.
 2. Choose output type and Compile Format.
-3. Click **Assign Section Layouts**.
+3. Click Assign Section Layouts.
 4. Select a Section Type on the left.
 5. Choose the layout that should apply.
-6. Repeat for each used Section Type.
+6. Repeat for each Section Type that appears in your project.
 7. Compile a small test.
-8. Inspect headings, text, numbering, and breaks.
+8. Inspect headings, text, numbering, and page breaks.
 
-Example mapping:
+## Example mapping
 
 | Section Type | Section Layout |
 |---|---|
@@ -62,67 +47,23 @@ Example mapping:
 | Appendix | Appendix Heading |
 | Front Matter | As-Is |
 
-
-## Common mistakes
-
-
-### Assigning based on names only
-
-Preview the layout. The name may not fully describe behavior.
-
-### Forgetting unused Section Types
-
-Unused types do not matter. Used types do.
-
-### Mistaking Binder level for Section Type
-
-Binder level can assign defaults, but Section Type is what Compile uses directly.
-
-### Not checking highlighted items
-
-Use the assignment preview/highlighting to verify which Binder items are affected.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
 ## Best diagnostic question
 
 When something compiles wrong, ask:
 
-```text
-Which Section Type did this Binder item have, and which Section Layout was assigned to that type?
-```
+> Which Section Type did this Binder item have, and which Section Layout was assigned to that type?
 
-That question solves most Compile confusion.
+That question solves most compile confusion.
 
-## Good teaching example
+## Common mistakes
 
-Use a toy project with:
+**Assigning based on layout names alone.** Preview the layout before choosing. The name may not fully describe the behavior.
 
-```text
-Manuscript
-├── Title Page
-├── Chapter One
-│   ├── Scene 1
-│   └── Scene 2
-└── Appendix
-```
+**Forgetting to assign a used type.** If a type is used in the Binder and has no layout assigned, it will compile with no formatting applied.
 
-Assign each item a type, then compile it three different ways.
+**Mistaking Binder level for Section Type.** Binder hierarchy can auto-assign default types, but Section Type is what Compile actually uses. Verify assignments explicitly.
 
+**Not using the assignment preview.** The assignment dialog highlights which Binder items are affected by each type. Use this to confirm you are targeting the right documents.
 
 ## Related pages
 
