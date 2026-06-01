@@ -8,7 +8,7 @@ tags:
   - placeholders
   - reference
 difficulty: advanced
-status: draft
+status: complete
 ---
 
 # List of all Placeholders
