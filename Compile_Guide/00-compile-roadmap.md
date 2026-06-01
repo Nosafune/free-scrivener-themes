@@ -11,104 +11,54 @@ difficulty: beginner
 
 # Compile Roadmap
 
-Compile is easier when treated as a sequence of decisions rather than one giant dialog box.
+Compile is easier when you treat it as a sequence of five decisions rather than one giant dialog box.
 
 ## The five Compile decisions
 
 ### 1. What are you exporting?
 
-Examples:
-
-- full manuscript
-- front matter only
-- one chapter
-- selected scenes
-- a collection
-- an outline
-- ebook version
-- submission manuscript
-
-This is controlled mostly by **Contents Settings**.
+Full manuscript, one chapter, selected scenes, a collection, an ebook version, a submission draft. This is controlled by **Contents Settings**.
 
 ### 2. What format are you exporting to?
 
-Examples:
-
-- Microsoft Word
-- PDF
-- EPUB
-- plain text
-- RTF
-- print
-
-This determines which Compile Formats are available and which settings matter.
+Word, PDF, EPUB, plain text, RTF, print. Your choice here determines which Compile Formats are available and which settings matter.
 
 ### 3. What is each Binder item?
 
-Examples:
-
-- part
-- chapter
-- scene
-- appendix
-- front matter
-- title page
-- dedication
-- back matter
-
-This is controlled by **Section Types**.
+Part, chapter, scene, appendix, front matter, title page. This is controlled by **Section Types** -- labels you assign to documents in the Binder.
 
 ### 4. How should each type look?
 
-Examples:
-
-- chapter starts on a new page
-- scene continues after a separator
-- appendix has a title
-- front matter has no page number
-- chapter title uses automatic numbering
-
-This is controlled by **Section Layouts**.
+Chapter starts on a new page, scene continues after a separator, appendix has a title, front matter has no page number. This is controlled by **Section Layouts** inside the Compile Format.
 
 ### 5. What last-mile transformations should happen?
 
-Examples:
-
-- smart quotes
-- straight quotes
-- remove comments
-- include footnotes
-- replace placeholders
-- convert styles
-- strip colors
-- include metadata
-
-These are controlled by Compile Options, Transformations, Replacements, Footnotes & Comments, Compatibility, and output-format-specific panes.
+Smart quotes, footnote behavior, comment removal, placeholder replacement, style conversion. These live in Compile Options, Transformations, Replacements, and output-specific panes.
 
 ## The practical order of operations
 
 Use this sequence when troubleshooting:
 
-```text
-1. Confirm Compile For
+```
+1. Confirm Compile For (the output type)
 2. Confirm selected Compile Format
 3. Confirm Contents
-4. Confirm Section Types
+4. Confirm Section Types on each Binder item
 5. Confirm Section Layout assignments
 6. Confirm format-specific options
 7. Compile a small test
-8. Adjust one thing at a time
+8. Adjust one setting at a time
 ```
 
-## Do not start with the Format Designer
+## The most important rule
 
-The Compile Format Designer is powerful, but it is the wrong first stop.
+**Do not open the Compile Format Designer first.**
 
-Start with:
+The Format Designer is powerful, but it is the wrong first stop. Start with output format, contents, section type assignment, and section layout assignment. Only open the Designer after you know the basic mapping is correct and still need more control.
 
-- output format
-- contents
-- section type assignment
-- section layout assignment
+## Related pages
 
-Only open the Format Designer after you know the basic mapping is correct.
+- [Deep dive into Compile](01-deep-dive-into-compile.md)
+- [Assigning Section Layouts to Section Types](07-assigning-section-layouts-to-section-types.md)
+- [Contents Settings](22-contents-settings.md)
+- [Compile Troubleshooting](00-compile-troubleshooting.md)
