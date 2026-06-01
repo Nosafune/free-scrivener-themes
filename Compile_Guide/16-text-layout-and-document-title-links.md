@@ -9,118 +9,66 @@ tags:
   - links
   - layout
 difficulty: intermediate
-status: complete
 ---
 
 # Text Layout & Document Title Links
 
 ## Fast answer
 
-Text layout controls how document text and titles are assembled; document title links can support cross-references and navigation-oriented output.
+Text layout controls how document text and titles are assembled in output. Document title links support cross-references and navigation in ebook and reference work output.
 
-## Why this matters
+## What compiled output can include
 
+Compiled output is not just document text pasted end to end. For each Binder item, Compile can include:
 
-Compiled output is not just document text pasted together.
-
-Compile can use:
-
-- Binder titles
-- document text
-- generated titles
-- linked titles
-- title prefixes
-- title suffixes
+- the Binder title as a heading
+- a generated title (from a prefix/suffix template)
+- document body text
+- auto-numbered title elements
 - cross-reference placeholders
 - internal links
 
-This is especially important for nonfiction, textbooks, reference works, and ebooks.
+The Section Layout controls which of these appear, and in what order.
 
+## Title generation examples
 
-## Core workflow
+Plain Binder title: `<$title>`
 
+Numbered chapter title: `Chapter <$t>` followed by `<$title>`
 
-Basic workflow:
+Appendix with Roman numeral: `Appendix <$R>: <$title>`
 
-1. Decide whether Binder titles should appear.
-2. Decide whether titles should be generated, literal, or omitted.
-3. Check Section Layout title settings.
-4. Check title prefix/suffix fields.
-5. Test internal document links.
-6. Verify output in the target format.
-
-Examples:
-
-```text
-Chapter <$t>
-<$title>
-```
-
-```text
-Appendix <$R>: <$title>
-```
-
-```text
-See Chapter <$n#chapter:installing-themes>
-```
-
-
-## Common mistakes
-
-
-### Treating Binder titles as only organizational
-
-Binder titles can become compiled headings.
-
-### Duplicate titles
-
-Repeated Binder titles can confuse navigation and references.
-
-### Broken links
-
-Internal links must point to the intended documents.
-
-### Output format assumptions
-
-Some link behaviors vary by output type.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
+Cross-reference by number: `See Chapter <$n#chapter:setup>`
 
 ## Title strategy
 
-For a clean project, decide early:
+Decide early how Binder titles will function in your project:
 
-| Binder title role | Strategy |
+| Binder title role | Section Layout setting |
 |---|---|
-| organizational only | do not include title in layout |
-| printed heading | include title in layout |
-| auto-numbered heading | combine title with numbering placeholder |
-| ebook navigation | use meaningful titles |
+| Organizational only | Do not include title in output |
+| Printed heading | Include title in layout |
+| Auto-numbered heading | Combine title with numbering placeholder |
+| Ebook navigation | Use meaningful, unique titles |
 
-## Document title links
+## Document title links for reference works
 
-For reference-heavy projects, title links can support:
+For nonfiction, textbooks, or ebook-heavy projects, document title links can support:
 
-- cross-references
-- page references
-- figure references
+- internal cross-references (See Chapter 4)
+- figure and table references
 - appendix navigation
-- ebook internal navigation
+- EPUB internal navigation
 
+Use `<$n#stream:keyword>` to reference a numbered item without incrementing the count.
+
+## Common mistakes
+
+**Treating Binder titles as organizational only.** They can and often should become compiled headings. Review whether titles are set to appear in the Section Layout.
+
+**Duplicate Binder titles.** Repeated titles confuse navigation (especially in ebooks) and make cross-references ambiguous.
+
+**Assuming link behavior is the same across formats.** Internal link behavior varies between PDF, Word, and EPUB. Test in each target format.
 
 ## Related pages
 
