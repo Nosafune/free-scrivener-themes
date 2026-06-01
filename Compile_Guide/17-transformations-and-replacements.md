@@ -9,137 +9,71 @@ tags:
   - transformations
   - editing
 difficulty: intermediate
-status: complete
 ---
 
 # Transformations & Replacements
 
 ## Fast answer
 
-Transformations and Replacements modify text during compile without permanently changing the draft.
+Transformations and Replacements modify text during compile without permanently changing the draft. They fire at export time and affect only the output file.
 
-## Why this matters
+## Why this is useful
 
+This is one of Compile's most practical advanced capabilities. It lets you keep the manuscript source clean while producing export-specific changes:
 
-This is one of Compile’s most useful advanced capabilities.
+- convert smart quotes to straight quotes (or vice versa)
+- replace readable draft shorthand with actual placeholders
+- remove draft markers before sending to a reader
+- change edition-specific terminology between print and ebook
+- convert symbols or special characters
 
-It allows export-specific changes while preserving the manuscript source.
+The source manuscript is never touched.
 
-Examples:
+## Transformations vs Replacements
 
-- convert smart quotes
-- change ellipses behavior
-- replace placeholder-friendly shorthand
-- remove draft markers
-- change edition-specific terminology
-- convert symbols
-- adjust formatting conventions
+**Transformations** are built-in automatic conversions: smart quote style, ellipsis handling, dash conversion, whitespace cleanup. They apply globally based on checkboxes.
 
+**Replacements** are custom rules you write: find this text, output that text. They are more powerful and more targeted.
 
-## Core workflow
+## Replacement examples
 
+| Draft text | Compiled output |
+|---|---|
+| CHAPTER_NUMBER | `<$t:chapter>` |
+| [DRAFT_ONLY] | (empty string) |
+| -- | em dash |
 
-Basic workflow:
+## Replacement workflow
 
 1. Identify text that should change only at export.
-2. Add a replacement rule.
-3. Keep replacement scope narrow.
+2. Add a replacement rule (Compile Format Designer > Replacements).
+3. Keep the source text narrow and distinctive.
 4. Compile a short test.
 5. Search the output for false positives.
-6. Document the rule.
+6. Document the rule for future reference.
 
-Example:
+## Good replacement token design
 
-| Draft text | Compiled text |
-|---|---|
-| `CHAPTER_NUMBER` | `<$t:chapter>` |
-| `[DRAFT_ONLY]` | empty string |
-| `--` | em dash |
+Use unusual syntax that will not appear in normal prose:
 
+```
+{{LIKE_THIS}}
+[[OR_THIS]]
+```
+
+Avoid replacing common words. Replacing "the" is not safe.
+
+## Multiple replacements and ordering
+
+Replacement rules apply in the order listed. If one replacement produces text that a later replacement would also match, the rules interact. Check ordering carefully when using multiple replacements.
 
 ## Common mistakes
 
+**Broad source text.** Replacing a common word can damage large sections of the manuscript.
 
-### Broad replacements
+**No post-compile search.** Always search the compiled output for unexpected replacements before sending.
 
-Replacing common words can damage the manuscript.
-
-### No test search
-
-Always search compiled output for unexpected replacements.
-
-### Using replacements as a substitute for revision
-
-Replacements are output tools, not a writing-quality fix.
-
-### Forgetting order
-
-Multiple replacement rules may interact.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
-## High-value replacement use cases
-
-### Placeholder readability
-
-Draft:
-
-```text
-PART_NUMBER
-```
-
-Compile replacement:
-
-```text
-<$t:part>
-```
-
-### Edition-specific text
-
-Draft:
-
-```text
-[[EDITION_NOTE]]
-```
-
-Ebook replacement:
-
-```text
-Available in the expanded edition.
-```
-
-Print replacement:
-
-```text
-
-```
-
-### Cleanup
-
-Remove internal drafting tokens:
-
-```text
-[CHECK]
-[TODO]
-[DRAFT]
-```
-
-Do this carefully. Search first.
-
+**Using replacements as a substitute for revision.** Replacements are output tools, not writing quality fixes.
 
 ## Related pages
 
