@@ -1,5 +1,7 @@
 # Scrivener Compile Guide
 
+> This guide covers **Scrivener 3** (Windows and Mac).
+
 This folder is the GitHub index page for the compile guide. GitHub renders `README.md` automatically when you open the folder, so this file acts as the landing page.
 
 ## What this guide covers
@@ -13,6 +15,8 @@ This folder is the GitHub index page for the compile guide. GitHub renders `READ
 - troubleshooting compile problems
 
 ## Recommended reading order
+
+> **New to Compile?** Start with the [Compile Roadmap](00-compile-roadmap.md) — it explains the five decisions that make up every compile operation.
 
 1. [Deep dive into Compile](01-deep-dive-into-compile.md)
 2. [Saving Compile Settings](02-saving-compile-settings.md)
