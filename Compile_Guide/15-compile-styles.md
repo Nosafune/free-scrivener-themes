@@ -8,7 +8,7 @@ tags:
   - styles
   - formatting
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Compile Styles
