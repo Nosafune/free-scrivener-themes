@@ -9,7 +9,7 @@ tags:
   - comments
   - editing
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Footnotes & Comments
