@@ -9,7 +9,7 @@ tags:
   - pdf
   - print
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Page Settings
