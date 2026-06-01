@@ -9,142 +9,77 @@ tags:
   - placeholders
   - chapters
 difficulty: intermediate
-status: complete
 ---
 
 # Automatic Numbering
 
 ## Fast answer
 
-Automatic numbering uses placeholders so Scrivener can generate chapter, part, figure, table, or hierarchical numbers at compile time.
+Automatic numbering uses placeholders so Scrivener generates chapter, part, figure, or table numbers at compile time rather than requiring manual typing.
 
 ## Why this matters
 
+Manual chapter numbers break every time you add, remove, or reorder a chapter. Automatic numbering lets Scrivener calculate numbers during compile, after the project is fully assembled. You never renumber by hand.
 
-Manual numbering is fragile.
+## Basic patterns
 
-If you type chapter numbers yourself, every structural change creates cleanup work. Automatic numbering lets Scrivener calculate numbers during compile, after the project has been assembled.
+Arabic numeral: `Chapter <$n>`
 
-This matters for:
+Title-case word: `Chapter <$t>` -- compiles to: One, Two, Three, ...
 
-- chapter numbers
-- part numbers
-- appendix numbers
-- figure numbers
-- table numbers
-- legal/technical outlines
-- hierarchical structures
+Uppercase Roman: `Part <$R>`
 
+## Named streams
 
-## Core workflow
+When different categories need independent numbering, use named streams:
 
-
-Basic pattern:
-
-```text
-Chapter <$t>
 ```
-
-Possible compiled result:
-
-```text
-Chapter One
-```
-
-A numeric chapter heading might use:
-
-```text
-Chapter <$n>
-```
-
-For independent numbering streams, name the stream:
-
-```text
 Part <$t:part>
 Chapter <$t:chapter>
 Figure <$n:figure>
 Table <$n:table>
 ```
 
-Use named streams when different categories need independent numbering.
-
-
-## Common mistakes
-
-
-### Manual numbering
-
-Manual numbering breaks when you rearrange chapters.
-
-### Using one stream for everything
-
-Parts, chapters, figures, and tables usually need separate streams.
-
-### Forgetting front matter
-
-Front matter can accidentally consume numbering if placeholders appear there.
-
-### Not testing after rearranging
-
-Reordering Binder items can affect numbering.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
+Each stream counts independently. Part Two, Chapter Seven, and Figure 3 can coexist correctly.
 
 ## Restarting numbering
 
-Use restart placeholders when a stream must begin again.
+Use restart placeholders when a stream must begin again:
 
-Examples:
-
-```text
-<$rst>
-<$rst_n>
+```
 <$rst_chapter>
 ```
 
+Place the restart placeholder in the Section Layout for the document that should trigger the reset -- for example, the opening scene after a Part divider.
+
 ## Hierarchical numbering
 
-Hierarchical numbering is useful for technical work:
+For technical or academic work:
 
-```text
-<$hn>
-<$ahn>
-<$aon>
+```
+<$hn>     ->  2, 2.1, 2.1.3
+<$ahn>    ->  B, B.1, B.1.3
+<$aon>    ->  2, 2.a, 2.a.i
 ```
 
-This can produce outline-style numbers such as:
+## Cross-references
 
-```text
-2
-2.1
-2.1.3
+To create a numbered label and refer back to it without incrementing:
+
+```
+Figure <$n:figure:mapA>       <- generates and assigns the number
+See Figure <$n#figure:mapA>.  <- refers to the same number
 ```
 
-## Figure and table references
+## Common mistakes
 
-For robust figure/table references, use named streams and keywords:
+**Typing numbers manually.** They break on every structural change.
 
-```text
-Figure <$n:figure:mapA>
-See Figure <$n#figure:mapA>.
-```
+**Using one stream for everything.** Parts, chapters, figures, and tables need separate streams.
 
-The first placeholder generates the number. The second refers back to it without incrementing.
+**Front matter consuming the stream.** If a placeholder appears in a front matter document, it increments the counter. Use different streams or exclude front matter from compile.
 
+**Not testing after reordering.** Restructuring the Binder changes numbering. Always run a test compile after reorganizing.
 
 ## Related pages
 
