@@ -8,7 +8,7 @@ tags:
   - preview
   - section-layouts
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Skip the preview tiles
