@@ -9,105 +9,60 @@ tags:
   - tables
   - placeholders
 difficulty: intermediate
-status: complete
 ---
 
 # Statistics & Tables
 
 ## Fast answer
 
-Statistics and tables require special attention because output formats handle counts, table structure, and layout differently.
+Statistics are inserted via placeholders that resolve at compile time. Tables require special attention because output formats handle them very differently.
 
-## Why this matters
+## Statistics placeholders
 
+These resolve during compile, not while you are writing:
 
-Statistics in Compile may include word count, character count, document count, or project targets through placeholders.
+```
+<$wc>          total word count
+<$wc100>       word count rounded to nearest 100
+<$cc>          character count
+<$doccount>    number of compiled documents
+<$draftTarget> project draft target
+```
 
-Tables are more fragile because they depend heavily on output format.
+Place statistics in front matter, title pages, or metadata fields where they will be useful to the reader or publisher.
 
-This topic matters most for:
+## Table workflow
 
-- nonfiction
-- academic work
-- technical documentation
-- reports
-- books with figures/tables
-- appendices
-
-
-## Core workflow
-
-
-Statistics workflow:
-
-1. Decide whether statistics belong in the compiled output.
-2. Use placeholders such as `<$wc>` or `<$doccount>`.
-3. Place them in front matter, title page, or metadata as needed.
-4. Compile and verify.
-
-Table workflow:
-
-1. Create simple tables where possible.
-2. Avoid excessive nesting.
-3. Test in target output.
-4. Inspect column widths and line breaks.
+1. Create simple tables where possible (avoid excessive nesting and merged cells).
+2. Compile a test with the table included.
+3. Open the output in the target application.
+4. Inspect column widths, line breaks, and cell content.
 5. For ebooks, test on multiple readers.
 
+## Table format survival rules
+
+- Keep column count low.
+- Avoid very long cell text.
+- Avoid merged cells where possible.
+- Test in the final output format before assuming the table is usable.
+- For print-only complex tables, consider an image instead of a live table.
+
+## Format risk by output type
+
+| Format | Table risk |
+|---|---|
+| Word | Generally reliable |
+| PDF | Generally reliable |
+| EPUB | High -- reflowable layout breaks wide fixed tables |
+| Plain text | Tables are stripped entirely |
 
 ## Common mistakes
 
+**Complex tables in ebooks.** Wide fixed-column tables almost always break in reflowable EPUB output. Simplify or use an image.
 
-### Complex tables in ebooks
+**Assuming statistics update in the Editor.** `<$wc>` counts compiled words at export time. It does not match the live Editor word count unless the compile includes the same documents.
 
-Reflowable ebooks are bad at wide fixed tables.
-
-### Assuming counts update in the Editor
-
-Statistics placeholders resolve during compile.
-
-### Overdesigning tables
-
-Simpler tables survive export better.
-
-### Ignoring target format
-
-A table that works in Word may fail in EPUB.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
-## Useful statistics placeholders
-
-```text
-<$wc>
-<$wc100>
-<$cc>
-<$doccount>
-<$draftTarget>
-<$sessionTarget>
-```
-
-## Table survival rules
-
-- keep columns few
-- avoid very long cell text
-- avoid merged cells where possible
-- test in the final output format
-- consider images for complex fixed tables in print-only outputs
-
+**Not testing in the target app.** A table that looks fine in Scrivener's preview may reflow badly in Word or break entirely in an ebook reader.
 
 ## Related pages
 
