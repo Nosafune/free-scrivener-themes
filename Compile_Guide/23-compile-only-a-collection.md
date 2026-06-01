@@ -9,111 +9,55 @@ tags:
   - export
   - workflow
 difficulty: intermediate
-status: complete
 ---
 
 # Compile only a Collection
 
 ## Fast answer
 
-Compiling a Collection lets you export a curated subset or alternate order without restructuring the Binder.
+Compiling a Collection lets you export a curated subset of documents in a custom order without restructuring the Binder.
 
-## Why this matters
+## Why Collections are useful for compile
 
+Collections create alternate views of your project. A Collection compile can export:
 
-Collections are powerful because they create alternate views.
+- one character's scenes (to check voice consistency)
+- one subplot (to check causality)
+- scenes marked for revision
+- a beta reader packet of selected chapters
+- a thematic subset for a specific reader
+- non-linear material in a specific sequence
 
-A Collection compile can export:
+None of this requires changing the Binder structure. The Collection is an alternate lens.
 
-- one character arc
-- one timeline
-- selected scenes
-- revision queue
-- beta reader packet
-- omitted chapters
-- thematic subset
-- non-linear reading order
+## Workflow
 
-without changing Binder structure.
-
-
-## Core workflow
-
-
-Basic workflow:
-
-1. Create or select a Collection.
-2. Add the desired documents.
-3. Order the Collection intentionally.
+1. Create or select a Collection (View > Collections).
+2. Add the desired documents to the Collection.
+3. Order the Collection intentionally (order may differ from Binder order).
 4. Open Compile.
-5. Choose the Collection as the source/group if available.
-6. Confirm Contents.
-7. Assign layouts as usual.
+5. In Contents, select the Collection as the compile source.
+6. Confirm what is included.
+7. Assign Section Layouts as usual.
 8. Compile and inspect.
-
-Useful collection exports:
-
-```text
-POV - Rowan
-Timeline - Past
-Revision - Needs Line Edit
-Beta Packet - Chapters 1-5
-```
-
-
-## Common mistakes
-
-
-### Assuming Binder order applies
-
-A Collection may have its own order.
-
-### Forgetting Section Types
-
-Collection items still need correct Section Types.
-
-### Exporting too much
-
-Check Contents carefully.
-
-### Using collections instead of fixing structure
-
-Collections are alternate views, not a replacement for Binder clarity.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
 
 ## High-value use cases
 
-### POV-only compile
+**POV compile:** Export every scene from one character's POV to check voice consistency across the whole manuscript.
 
-Export every scene from one POV to check voice consistency.
+**Subplot compile:** Export all scenes in a single subplot to check causality and pacing without the rest of the novel in the way.
 
-### Subplot compile
+**Revision compile:** Export only scenes marked "Needs Revision" -- add them to a Collection, then compile to a PDF for a focused editing pass.
 
-Export all scenes in one subplot to check causality.
+**Beta reader packet:** Export selected chapters without exposing the full manuscript.
 
-### Revision compile
+## Common mistakes
 
-Export only scenes marked “Needs Revision.”
+**Assuming Binder order applies.** A Collection may have its own order, which is what Compile will use. Check the Collection order before compiling.
 
-### Beta-reader compile
+**Forgetting Section Types.** Collection items still need correct Section Types assigned. The Collection controls what is included; Section Types and Layouts control how each item appears.
 
-Export selected chapters without exposing the entire manuscript.
-
+**Using Collections instead of fixing Binder structure.** Collections are alternate views, not a substitute for keeping the Binder organized.
 
 ## Related pages
 
