@@ -2,7 +2,7 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-**42 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
+**50 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
 
 Now past **200 tracked release-asset downloads** on GitHub. Thanks for using them.
 
@@ -12,11 +12,11 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 
 ## Downloads
 
-### v2.0.0 - 12-Pack
+### v2.0.0 - 20-Pack
 
 https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
-Start here if you want the newest themes. This release adds 12 Windows and Mac themes, including the Cobalt2 pair.
+Start here if you want the newest themes. This release now adds 20 Windows and Mac themes, including the Cobalt2 pair and the new premium nature, game, and book-inspired lanes.
 
 ### v1.0.0 - Original 30
 
@@ -30,7 +30,7 @@ https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
 ### Mac Themes
 
-Mac `.stheme` files are available for all 42 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
+Mac `.stheme` files are available for all 50 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
 
 ---
 
@@ -66,6 +66,14 @@ To use one: right-click your Scrivener shortcut, open Properties, choose Change 
 | Plain Jane | Clean light theme, minimal distraction |
 | Cobalt2 Luxe | Deep blue writing-safe Cobalt2 theme |
 | Cobalt2 IDE | Brighter IDE-style Cobalt2 theme |
+| Erdtree Manuscript | Mythic forest-gold manuscript |
+| Ravencliff Library | Gothic midnight library |
+| Sea Glass Archive | Coastal archive, seafoam and stone |
+| Chrono Lantern | Clockwork brass and blue light |
+| Moonlit Grove | Silvered forest night |
+| Ironwood Atlas | Antique map slate and bronze |
+| Ashen Ledger | Ash paper with ink and berry |
+| Hollow Quill | Ivory, ink, and smoked violet |
 
 ---
 
@@ -144,9 +152,10 @@ Restart Scrivener after importing or switching themes so the full interface refr
 
 ### v2.0.0
 
-- Released 12 new Windows and Mac themes as the expansion pack after the original release passed 100+ tracked downloads.
+- Expanded the v2.0.0 pack from 12 to 20 Windows and Mac themes after the original release passed 200 tracked downloads.
 - Added individual `.scrtheme` and `.stheme` assets for per-theme downloads.
 - Added Cobalt2 Luxe and Cobalt2 IDE as Windows and Mac twin themes.
+- Added eight premium nature, game, and book-inspired twin themes.
 - Added three custom Scrivener `.ico` files as named release assets.
 
 ### v1.0.0
