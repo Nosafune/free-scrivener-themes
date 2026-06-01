@@ -9,131 +9,68 @@ tags:
   - metadata
   - numbering
 difficulty: intermediate
-status: complete
 ---
 
 # Using Placeholders
 
 ## Fast answer
 
-Placeholders are compile-time tokens. Scrivener replaces them with project data, document data, numbering, dates, page numbers, or inserted content during export.
+Placeholders are compile-time tokens. Scrivener replaces them during export with project data, document data, numbering, dates, page numbers, or inserted content.
 
 ## Why this matters
 
+Placeholders make output reusable. Instead of typing fixed values, you insert a token and let Compile resolve it at export time. The same manuscript produces a correctly titled title page, correctly numbered chapters, and correct author headers for any draft -- without editing the text.
 
-Placeholders make reusable output possible.
+## Where placeholders work
 
-Instead of typing fixed values everywhere, you can insert a token and let Compile resolve it.
+Placeholders can appear in:
 
-Examples:
+- document text
+- Section Layout prefix and suffix fields
+- Section Layout title fields
+- header and footer fields
+- metadata fields
+- replacement rules
 
-```text
-<$projecttitle>
-<$author>
-<$date>
-<$p>
-<$wc>
-<$n>
-```
-
-This is especially useful in:
-
-- title pages
-- headers
-- footers
-- chapter headings
-- figure captions
-- tables
-- front matter
-- ebook metadata
-
-
-## Core workflow
-
-
-Recommended workflow:
-
-1. Decide what value should be generated at compile time.
-2. Choose the appropriate placeholder.
-3. Place it in text, layout prefix/suffix, header/footer, or metadata field.
-4. Compile a small test.
-5. Inspect the replacement.
-6. Escape the placeholder if you want it to print literally.
-
-To print a placeholder literally, use a backslash:
-
-```text
-\<$date>
-```
-
-
-## Common mistakes
-
-
-### Using placeholders everywhere
-
-Placeholders are powerful but can make text harder to read.
-
-### Forgetting context limits
-
-Some placeholders work only in headers/footers, ebook output, script settings, or compile settings.
-
-### Typing placeholders incorrectly
-
-Small syntax errors prevent replacement.
-
-### Not testing output
-
-Placeholder behavior must be tested in the target output format.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
-## Readability trick
-
-Use Project Replacements to make placeholders easier to read while drafting.
-
-Example draft text:
-
-```text
-CHAPTER_NUMBER
-```
-
-Compile replacement:
-
-```text
-<$t:chapter>
-```
-
-This keeps the manuscript readable while still generating automatic output.
+Not every placeholder works in every location. Some are headers/footers only. Some are ebook-only. Test in the intended output.
 
 ## Common high-value placeholders
 
-```text
-<$projecttitle>
-<$author>
-<$date>
-<$p>
-<$pagecount>
-<$wc>
-<$n>
-<$t>
-<$custom:FieldName>
+```
+<$projecttitle>   project title from Compile metadata
+<$author>         author name from Compile metadata
+<$date>           current date at compile time
+<$p>              current page number (headers/footers only)
+<$pagecount>      total page count (headers/footers only)
+<$wc>             total word count
+<$n>              auto-number, Arabic (1, 2, 3)
+<$t>              auto-number, title-case word (One, Two, Three)
+<$custom:Name>    custom metadata field value
 ```
 
+## Escaping placeholders
+
+To print a placeholder literally, prefix it with a backslash: `\<$date>`
+
+Scrivener will output the literal text `<$date>` without replacing it.
+
+## Readability trick
+
+Use Project Replacements to keep drafts readable while generating correct output.
+
+Draft text: `CHAPTER_NUMBER`
+
+Compile Replacement: `CHAPTER_NUMBER  ->  <$t:chapter>`
+
+The manuscript stays readable during writing. The replacement fires at compile time.
+
+## Common mistakes
+
+**Using placeholders in the wrong location.** Check the full list to confirm which locations each placeholder supports.
+
+**Typing placeholders incorrectly.** A single wrong character prevents replacement. Copy from Help > List of All Placeholders inside Scrivener.
+
+**Not testing in the target format.** Placeholder behavior can differ between PDF, Word, and EPUB output. Always inspect a test compile externally.
 
 ## Related pages
 
