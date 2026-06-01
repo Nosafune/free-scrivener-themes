@@ -9,109 +9,63 @@ tags:
   - export
   - file-types
 difficulty: intermediate
-status: complete
 ---
 
 # Compatibility
 
 ## Fast answer
 
-Compatibility settings handle output-specific limitations and conversion behavior between Scrivener and external formats.
+Compatibility settings handle output-format limitations and conversion behavior between Scrivener and external formats. Every output format has constraints -- Compatibility lets you manage them.
 
 ## Why this matters
 
+The same manuscript behaves differently in Word, PDF, EPUB, RTF, and plain text. Scrivener must translate its internal document model into another file model, and that translation is imperfect for complex content.
 
-Every output format has constraints.
+Compatibility settings give you control over how that translation happens for features like styles, footnotes, tables, images, and special characters.
 
-Compatibility settings matter because the same manuscript can behave differently in:
+## Representative test sample
 
-- Word
-- PDF
-- EPUB
-- RTF
-- plain text
-- print
-- Markdown/MultiMarkdown workflows
+Before finalizing any output format, compile a short sample that includes:
 
-Compile must translate Scrivener’s internal document model into another file model.
+- a heading
+- normal body text
+- styled text (block quote or similar)
+- a footnote
+- a comment
+- an image
+- a table
+- an internal link
 
-
-## Core workflow
-
-
-Basic workflow:
-
-1. Choose output format.
-2. Compile a short representative sample.
-3. Open the output externally.
-4. Check styles, footnotes, tables, images, links, and special characters.
-5. Adjust compatibility settings if needed.
-6. Re-test.
-
-Representative sample should include:
-
-- heading
-- body text
-- styled text
-- footnote
-- comment
-- image
-- table
-- internal link
-
-
-## Common mistakes
-
-
-### Assuming all file types preserve all features
-
-They do not.
-
-### Testing only inside Scrivener
-
-External inspection is required.
-
-### Ignoring reader/device differences
-
-Ebooks especially require real testing.
-
-### Overusing complex formatting
-
-Simpler formatting survives conversion better.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
+Open the result in the real target application. Problems that do not appear in Scrivener's preview will appear here.
 
 ## Format risk table
 
 | Feature | Risk |
 |---|---|
-| footnotes | varies by output |
-| comments | may be omitted or transformed |
-| tables | fragile in ebooks |
-| images | size and anchoring vary |
-| page numbers | meaningless in reflowable ebooks |
-| styles | may map differently |
-| internal links | format-dependent |
-| headers/footers | fixed-page formats only |
+| Footnotes | Behavior varies significantly by output |
+| Comments | May be omitted, transformed, or appear unexpectedly |
+| Tables | Fragile in reflowable ebooks |
+| Images | Size and anchoring vary by format |
+| Page numbers | Meaningless in reflowable ebooks |
+| Styles | May map differently across output types |
+| Internal links | Format-dependent; test in each output |
+| Headers/footers | Fixed-page formats only |
 
-## Best practice
+## Fixed-page vs reflowable
 
-Create a compatibility test document and compile it after any major format change.
+Fixed-page formats (PDF, Word, Print) ask: **Where does this sit on the page?**
 
+Reflowable formats (EPUB) ask: **What is this content semantically?**
+
+These are fundamentally different questions. Settings that make sense for one are often meaningless or counterproductive for the other.
+
+## Common mistakes
+
+**Assuming all file types preserve all features.** They do not. Complex formatting that works in Word may be stripped or broken in EPUB.
+
+**Testing only inside Scrivener.** Scrivener's preview does not show how the output will render in external applications. Always open the file externally.
+
+**Overusing complex formatting.** Simpler formatting survives conversion better across all output types.
 
 ## Related pages
 
