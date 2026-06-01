@@ -9,113 +9,56 @@ tags:
   - pdf
   - print
 difficulty: intermediate
-status: complete
 ---
 
 # Page Settings
 
 ## Fast answer
 
-Page Settings control page-level output behavior such as size, margins, headers, footers, and pagination where the output format supports fixed pages.
+Page Settings control page size, margins, headers, footers, and pagination for fixed-page outputs (PDF, Word, Print). They do not apply to reflowable ebooks.
 
-## Why this matters
+## When page settings matter
 
+Page settings are relevant for PDF, Print, and Word/RTF manuscript exports. They are not relevant -- or behave differently -- for EPUB and plain text.
 
-Page settings matter most for fixed-page outputs.
+## Core settings
 
-Examples:
+**Page size:** Letter (8.5 x 11 in) is standard in North America. A4 is standard in most other countries. Paperback trim sizes vary (common: 5.06 x 7.81 in, 5.5 x 8.5 in, 6 x 9 in).
 
-- Print
-- PDF
-- Word/RTF manuscript exports
+**Margins:** Standard manuscript: 1 inch all sides. Print books: inside margin (gutter) should be wider than outside margin, especially for longer books.
 
-They matter less or differently for reflowable ebooks.
+**Headers and footers:** Typical manuscript header: Author / Title / Page. Footer: usually empty or page number only.
 
+## Common header/footer placeholders
 
-## Core workflow
-
-
-Basic workflow:
-
-1. Choose fixed-page output.
-2. Set page size.
-3. Set margins.
-4. Configure headers and footers.
-5. Configure page numbering.
-6. Test front matter and first chapter.
-7. Inspect final PDF or Word output.
-
-Common header/footer placeholders:
-
-```text
-<$p>
-<$pagecount>
-<$projecttitle>
-<$author>
-<$pageGroupTitle>
+```
+<$p>                 page number
+<$pagecount>         total pages
+<$projecttitle>      project title
+<$author>            author name
+<$abbr_title>        abbreviated title
+<$pageGroupTitle>    current chapter title
 ```
 
+## Front matter behavior
+
+Front matter often needs different page numbering:
+
+- title page: no page number
+- copyright, dedication: Roman numerals (i, ii, iii)
+- main text: Arabic numerals starting at 1
+
+Configure this in the Section Layout settings for front matter items and in the page settings pane.
 
 ## Common mistakes
 
+**Applying PDF assumptions to EPUB.** Ebooks are reflowable. Page layout settings mean nothing in a reflowable context.
 
-### Applying PDF assumptions to EPUB
+**Wrong page size for the printer.** Letter and A4 differ. Always confirm page size matches your print target.
 
-Ebooks do not have fixed page layout.
+**Headers or footers on the title page.** The title page almost never has a running header. Configure the title page Section Layout to suppress headers and footers.
 
-### Wrong page size
-
-Letter and A4 differences matter.
-
-### Header/footer on front matter
-
-Front matter may need different numbering or no numbering.
-
-### Forgetting outside/inside margins
-
-Print layouts may need mirrored margins.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
-## Page setup testing
-
-Always test:
-
-- title page
-- first front matter page
-- first chapter page
-- ordinary body page
-- final page
-- appendix page if present
-
-## Fixed-page vs reflowable thinking
-
-Fixed-page formats ask:
-
-```text
-Where does this sit on the page?
-```
-
-Reflowable formats ask:
-
-```text
-What is this content semantically?
-```
-
+**Forgetting mirrored margins for print.** Print layouts need the inside margin (binding side) wider than the outside. Enable mirrored margins in Page Settings for print output.
 
 ## Related pages
 
