@@ -9,96 +9,61 @@ tags:
   - binder
   - export
 difficulty: beginner
-status: complete
 ---
 
 # Contents Settings
 
 ## Fast answer
 
-Contents Settings determine which Binder items are included in the compile operation.
+Contents Settings determine which Binder items are included in the compile operation. Check here first when the wrong material appears or disappears in output.
 
-## Why this matters
+## Why Contents comes first
 
-
-Before formatting matters, inclusion matters.
-
-Many compile problems are not formatting problems. They are Contents problems.
+Many compile problems look like formatting problems but are actually inclusion problems. Before adjusting Section Layouts or format settings, confirm that the right documents are included.
 
 Contents controls:
 
 - full manuscript vs selected section
-- included/excluded documents
-- front matter
-- back matter
-- current Binder selection
+- included/excluded individual documents
+- front matter inclusion
+- back matter inclusion
+- compile group (which Binder folder is the root)
 - collection-based export
-- compile group
+- Binder selection
 
-
-## Core workflow
-
-
-Basic workflow:
+## Workflow
 
 1. Open Compile.
 2. Review the Contents list.
-3. Confirm the compile group.
-4. Check inclusion boxes.
-5. Include or exclude front matter.
-6. Include or exclude back matter.
-7. Confirm document order.
+3. Confirm the compile group is the correct Binder root.
+4. Check inclusion boxes on individual documents.
+5. Confirm front matter is included (or excluded) as intended.
+6. Confirm back matter is included (or excluded) as intended.
+7. Verify document order.
 8. Compile a small test.
-
-Use Contents first when the wrong material appears or disappears.
-
-
-## Common mistakes
-
-
-### Fixing formatting when inclusion is wrong
-
-Check Contents first.
-
-### Hidden excluded documents
-
-A document can exist in the Binder but not be included in Compile.
-
-### Wrong compile group
-
-You may be compiling a subset without realizing it.
-
-### Forgetting front matter
-
-Title pages and copyright pages often live outside the main draft structure.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
 
 ## Contents diagnostic table
 
 | Symptom | Check |
 |---|---|
-| missing chapter | include checkbox / compile group |
-| extra notes | Research folder or wrong group included |
-| no front matter | Add Front Matter option |
-| duplicated text | same material included twice |
-| wrong order | Binder order or collection order |
-| only one chapter exported | Binder selection or compile group |
+| Missing chapter | Include checkbox, compile group |
+| Extra notes or research | Wrong compile group or Research folder included |
+| No front matter | Add Front Matter option in Contents |
+| Duplicated text | Same material included via two paths |
+| Wrong document order | Binder order or Collection order |
+| Only one chapter exported | Binder selection or compile group |
 
+## The most overlooked issue
+
+A document can exist in the Binder but not be included in compile because its Include checkbox is unchecked. These excluded documents are invisible in the Contents list unless you look specifically for them.
+
+## Common mistakes
+
+**Fixing formatting when inclusion is wrong.** Check Contents first. A layout problem and an inclusion problem look similar but have completely different fixes.
+
+**Wrong compile group.** You may be compiling a subset (one chapter, one part) without realizing it. Confirm the compile group is the full manuscript root.
+
+**Forgetting front matter.** Title pages and copyright pages often live outside the main Draft folder. They are not included unless you explicitly add them.
 
 ## Related pages
 
