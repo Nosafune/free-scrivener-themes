@@ -15,23 +15,12 @@ status: draft
 
 ## Fast answer
 
-This page is the placeholder reference scaffold for the book. It groups high-value Scrivener placeholders by purpose and flags where verification against the target Scrivener version is required.
+This is the placeholder reference for Scrivener 3 compile. Placeholders are compile-time tokens — Scrivener replaces them with project data, numbering, dates, or metadata during export.
 
 ## Why this matters
 
 
-A placeholder reference is useful only if readers can search it quickly.
-
-The final published page should include:
-
-- placeholder
-- replacement behavior
-- valid context
-- output limitations
-- example
-- common failure modes
-
-This draft groups placeholders by practical use rather than dumping a raw list.
+A placeholder reference is useful only if you can find what you need quickly. This page groups placeholders by practical purpose rather than alphabetically.
 
 
 ## Core workflow
