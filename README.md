@@ -16,7 +16,7 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 
 https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
-Start here if you want the newest themes. This release now adds 20 Windows and Mac themes, including the Cobalt2 pair and the new premium nature, game, and book-inspired lanes.
+Start here if you want the newest themes. This release now adds 20 theme pairs on Windows and Mac, including the Cobalt2 pair and the new premium nature, game, and book-inspired lanes.
 
 ### v1.0.0 - Original 30
 
@@ -152,7 +152,7 @@ Restart Scrivener after importing or switching themes so the full interface refr
 
 ### v2.0.0
 
-- Expanded the v2.0.0 pack from 12 to 20 Windows and Mac themes after the original release passed 200 tracked downloads.
+- Expanded the v2.0.0 pack from 12 to 20 theme pairs on Windows and Mac after the original release passed 200 tracked downloads.
 - Added individual `.scrtheme` and `.stheme` assets for per-theme downloads.
 - Added Cobalt2 Luxe and Cobalt2 IDE as Windows and Mac twin themes.
 - Added eight premium nature, game, and book-inspired twin themes.
