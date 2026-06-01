@@ -8,97 +8,54 @@ tags:
   - preview
   - section-layouts
 difficulty: intermediate
-status: complete
 ---
 
 # Skip the preview tiles
 
 ## Fast answer
 
-Preview tiles are useful for orientation, but advanced troubleshooting should focus on Section Type assignment, Section Layout assignment, and actual test output.
+Preview tiles show approximate layout behavior, not the finished manuscript. Use them for orientation, then move to a real test compile for any serious verification.
 
-## Why this matters
+## What preview tiles are good for
 
+- Choosing between title-only vs title-and-text layouts
+- Identifying whether a page break is present
+- Comparing heading styles at a glance
+- Picking a starting point when you are unsure which layout family to use
 
-Compile previews show approximate layout behavior, not the full finished manuscript.
+## What preview tiles cannot show you
 
-They are useful for:
+Preview tiles use sample text, not your project's actual content. They cannot accurately show:
 
-- choosing among layout options
-- identifying page break behavior
-- seeing whether titles are included
-- comparing layout families
+- Placeholder behavior
+- Footnote and endnote rendering
+- Page headers and footers
+- Ebook navigation
+- Replacements
+- Custom metadata
+- Compatibility settings
+- How your specific Binder titles will appear as headings
 
-They are not a substitute for compiling a test output.
+For any of these, compile a real test.
 
+## Recommended approach
 
-## Core workflow
-
-
-Use preview tiles like this:
-
-1. Scan for broad layout behavior.
-2. Select the closest layout.
+1. Scan preview tiles for broad layout behavior.
+2. Select the closest-looking layout.
 3. Assign it.
-4. Compile a short sample.
-5. Evaluate the real output.
-6. Return to preview only if assignment was clearly wrong.
+4. Compile a short sample (one chapter with a scene or two).
+5. Open the output file externally and evaluate.
+6. Return to preview tiles only if you need to switch layout families entirely.
 
-For technical troubleshooting, trust real compiled output over preview.
-
+Do not spend time fine-tuning in preview. The real output is the only ground truth.
 
 ## Common mistakes
 
+**Expecting exact output.** Preview tiles are illustrative, not predictive.
 
-### Expecting exact output
+**Spending too long comparing tiles.** Choose a likely layout and test. Iteration on real output is faster than deliberation in preview.
 
-Preview tiles use sample text and may not show project-specific behavior.
-
-### Ignoring actual document settings
-
-A tile cannot fully show metadata, replacement, footnote, or output-specific effects.
-
-### Spending too long in previews
-
-Choose a likely layout and test.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
-## When preview tiles are enough
-
-They are usually enough for:
-
-- choosing title-only vs title-and-text
-- deciding whether a page break is present
-- identifying section text layouts
-- comparing heading styles
-
-## When preview tiles are not enough
-
-Compile a real test when checking:
-
-- placeholders
-- footnotes
-- page headers
-- ebook navigation
-- replacements
-- custom metadata
-- compatibility settings
-
+**Ignoring actual document settings.** Metadata, replacement rules, and footnote behavior are invisible in preview and very visible in output.
 
 ## Related pages
 
