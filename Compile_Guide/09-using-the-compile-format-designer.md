@@ -8,7 +8,7 @@ tags:
   - format-designer
   - advanced
 difficulty: advanced
-status: draft
+status: complete
 ---
 
 # Using the Compile Format Designer
