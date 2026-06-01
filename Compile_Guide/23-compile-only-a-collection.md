@@ -119,4 +119,3 @@ Export selected chapters without exposing the entire manuscript.
 
 - [Contents Settings](22-contents-settings.md)
 - [Compile only the Binder Selection](24-compile-only-the-binder-selection.md)
-- Using Collections
