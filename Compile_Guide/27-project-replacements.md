@@ -9,7 +9,7 @@ tags:
   - project
   - workflow
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Project Replacements
