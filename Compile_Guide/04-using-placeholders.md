@@ -9,7 +9,7 @@ tags:
   - metadata
   - numbering
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Using Placeholders
