@@ -2,21 +2,11 @@
 
 > This guide covers **Scrivener 3** (Windows and Mac).
 
-This folder is the GitHub index page for the compile guide. GitHub renders `README.md` automatically when you open the folder, so this file acts as the landing page.
-
-## What this guide covers
-
-- how Scrivener Compile works
-- section types and section layouts
-- compile formats and settings
-- placeholders and replacements
-- numbering, separators, and page settings
-- tables, footnotes, comments, and compatibility
-- troubleshooting compile problems
+Compile is Scrivener's export engine. It transforms your binder of documents into a finished file: Word, PDF, EPUB, or plain text. This guide covers every part of that process.
 
 ## Recommended reading order
 
-> **New to Compile?** Start with the [Compile Roadmap](00-compile-roadmap.md) — it explains the five decisions that make up every compile operation.
+> **New to Compile?** Start with the [Compile Roadmap](00-compile-roadmap.md) first -- it explains the five decisions that shape every compile operation.
 
 1. [Deep dive into Compile](01-deep-dive-into-compile.md)
 2. [Saving Compile Settings](02-saving-compile-settings.md)
@@ -46,10 +36,10 @@ This folder is the GitHub index page for the compile guide. GitHub renders `READ
 26. [Compile Options](26-compile-options.md)
 27. [Project Replacements](27-project-replacements.md)
 
-## Extra references
+## Quick references
 
-- [Compile Roadmap](00-compile-roadmap.md)
-- [Compile Glossary](00-compile-glossary.md)
-- [Compile Troubleshooting](00-compile-troubleshooting.md)
-- [Compile Preflight Checklists](00-compile-preflight-checklists.md)
-- [Source Notes](00-source-notes.md)
+- [Compile Roadmap](00-compile-roadmap.md) -- the five decisions, in order
+- [Compile Glossary](00-compile-glossary.md) -- key terms defined
+- [Compile Troubleshooting](00-compile-troubleshooting.md) -- when output is wrong
+- [Compile Preflight Checklists](00-compile-preflight-checklists.md) -- before a serious export
+- [Sample Compile Test Project](00-sample-compile-test-project.md) -- reference project structure
