@@ -9,7 +9,7 @@ tags:
   - placeholders
   - ebook
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Metadata Settings
