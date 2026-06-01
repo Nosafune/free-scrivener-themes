@@ -8,99 +8,50 @@ tags:
   - file-types
   - export
 difficulty: intermediate
-status: complete
 ---
 
 # Select File Types for Compile Formats
 
 ## Fast answer
 
-Compile Formats are filtered by output file type, so choose the intended output before judging which formats are available.
+Choose the output file type first (Compile For), then select a Compile Format. The available formats and relevant settings both change depending on what you are outputting.
 
-## Why this matters
+## Why order matters
 
+Changing the output type can change which Compile Formats appear in the list and which settings are available. A format built for PDF may not make sense for EPUB. A plain text export cannot preserve formatting that a Word export handles cleanly.
 
-The output format affects the available compile formats and the behavior of individual settings.
+The first question is always: **What are we compiling for?**
 
-A format meant for PDF may not make sense for EPUB. A plain text export cannot preserve all formatting. A Word export may handle styles differently than a PDF export.
-
-The first decision is always:
-
-```text
-What are we compiling for?
-```
-
-
-## Core workflow
-
-
-Basic workflow:
-
-1. Open Compile.
-2. Choose **Compile For**.
-3. Review the format list.
-4. Select the closest format.
-5. Assign layouts.
-6. Test output in the target application.
-
-Examples:
+## Output type reference
 
 | Output goal | Compile For |
 |---|---|
-| editor manuscript | Microsoft Word or RTF |
-| print proof | PDF or Print |
-| ebook | EPUB/Kindle |
-| archive | Plain Text |
-| markdown pipeline | MultiMarkdown/Plain Text route if used |
+| Agent or editor manuscript | Microsoft Word (.docx) or RTF |
+| Print proof or final PDF | PDF |
+| Ebook | EPUB 3 |
+| Archive or conversion pipeline | Plain Text |
+| Technical or Markdown workflow | MultiMarkdown or plain text route |
 
-> **Note:** Scrivener 3 exports EPUB 3 (the current standard). Amazon KDP now prefers EPUB 3 over the older .mobi format for new uploads.
+> **Note:** Scrivener 3 exports EPUB 3, the current ebook standard. Amazon KDP now accepts and prefers EPUB 3 over the older .mobi format for new uploads.
+
+## What each format can and cannot do
+
+| Feature | Word | PDF | EPUB | Plain Text |
+|---|---|---|---|---|
+| Page numbers | yes | yes | no (reflowable) | no |
+| Fixed margins | yes | yes | no | no |
+| Live styles | yes | limited | CSS-like | no |
+| Ebook metadata | no | no | yes | no |
+| Reflowable layout | no | no | yes | no |
+| Comments/footnotes | yes | partial | varies | limited |
 
 ## Common mistakes
 
+**Selecting a format before setting the output type.** Switching Compile For can reset available format options. Set the output type first.
 
-### Selecting format before file type
+**Expecting PDF behavior in EPUB.** Ebooks are reflowable. Page-specific behavior does not apply.
 
-Changing file type can change available formats.
-
-### Expecting PDF behavior in EPUB
-
-Ebooks are reflowable; page-specific behavior often does not apply.
-
-### Expecting rich formatting in plain text
-
-Plain text output cannot preserve many visual settings.
-
-### Not opening output externally
-
-Always inspect the result in the program or device readers will use.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
-## Output-type reality check
-
-| Feature | Word | PDF | EPUB | Plain Text |
-|---|---:|---:|---:|---:|
-| page numbers | yes | yes | limited/not fixed | no |
-| fixed margins | yes | yes | no | no |
-| live styles | yes | no/limited | CSS-like | no |
-| ebook metadata | no | no | yes | no |
-| reflowable layout | no | no | yes | no |
-| comments/footnotes | yes | yes/limited | varies | limited |
-
+**Not opening the output externally.** Always inspect the result in the program or device readers will use. Scrivener's preview is not a substitute for Word, Adobe Reader, or a real ebook reader.
 
 ## Related pages
 
