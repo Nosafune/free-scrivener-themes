@@ -9,7 +9,7 @@ tags:
   - placeholders
   - chapters
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Automatic Numbering
