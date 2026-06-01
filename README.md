@@ -138,6 +138,14 @@ To use one: right-click your Scrivener shortcut, open Properties, choose Change 
 
 ---
 
+## Compile Guide
+
+A 28-article Scrivener 3 compile reference is included in this repo — covering section types, section layouts, placeholders, separators, troubleshooting, and more.
+
+[Browse the Compile Guide →](Compile_Guide/README.md)
+
+---
+
 ## Install
 
 Import in Scrivener via:
