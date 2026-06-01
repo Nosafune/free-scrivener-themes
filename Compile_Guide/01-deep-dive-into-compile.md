@@ -9,132 +9,80 @@ tags:
   - section-types
   - section-layouts
 difficulty: beginner
-status: complete
 ---
 
 # Deep dive into Compile
 
 ## Fast answer
 
-Compile is Scrivener’s export engine. It gathers selected Binder items, applies Section Type and Section Layout rules, then produces an external document.
+Compile is Scrivener's export engine. It collects selected Binder items, applies Section Type and Section Layout rules, and produces an external document.
 
 ## Why this matters
 
+Compile looks intimidating because it touches almost every other Scrivener system: Binder hierarchy, Section Types, Section Layouts, Compile Formats, metadata, styles, placeholders, replacements, footnotes, and output-specific settings.
 
-Compile looks intimidating because it sits at the intersection of almost every other Scrivener system.
-
-It can use:
-
-- Binder hierarchy
-- Section Types
-- Section Layouts
-- Compile Formats
-- metadata
-- styles
-- placeholders
-- replacements
-- front matter
-- back matter
-- comments
-- footnotes
-- output-specific settings
-
-The mistake is thinking Compile is one tool. It is a pipeline.
-
-
-## Core workflow
-
-
-Use this basic pipeline:
-
-```text
-Choose output type
-  ↓
-Choose Compile Format
-  ↓
-Choose Contents
-  ↓
-Assign Section Layouts
-  ↓
-Review metadata/options
-  ↓
-Compile test output
-  ↓
-Adjust format or assignment
-```
-
-A practical first compile should avoid custom formatting. Choose a built-in format, confirm the right documents are included, and inspect the output. Only then edit the format.
-
-
-## Common mistakes
-
-
-### Editing too soon
-
-Users often open the Format Designer before confirming Section Types and Contents. That creates confusion.
-
-### Confusing Section Types and Section Layouts
-
-Section Types identify what documents are. Section Layouts define how those document types are formatted.
-
-### Expecting Editor formatting to equal output formatting
-
-Compile may override Editor formatting depending on the selected format and layout.
-
-### Testing on a whole manuscript
-
-Compile small first. A short test reveals problems faster.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
+The key insight is that Compile is not one tool -- it is a pipeline. Understanding which stage controls what makes every problem easier to locate.
 
 ## The correct mental model
 
-```text
-Project structure is input.
-Compile Format is formatting logic.
-Section Layout assignment is the bridge.
-Output file is the result.
+```
+Project structure     is the input.
+Section Types         identify what each Binder item is.
+Section Layouts       define how each type appears in output.
+Compile Format        holds the layouts and format-level rules.
+Contents Settings     control which items are included.
+Output file           is the result.
 ```
 
-## Beginner-safe strategy
+## The core pipeline
 
-1. Use built-in formats first.
-2. Do not edit the format immediately.
-3. Assign layouts carefully.
-4. Compile to Word or PDF for inspection.
-5. Save a custom format only after the result is close.
+```
+Choose output type
+  |
+Choose Compile Format
+  |
+Choose Contents
+  |
+Assign Section Layouts to Section Types
+  |
+Review metadata and options
+  |
+Compile test output
+  |
+Adjust one setting at a time
+```
+
+## The most common mistake
+
+Opening the Compile Format Designer before confirming Section Types and Contents. This creates confusion because the wrong documents are being formatted, or the wrong type is assigned -- neither of which the Designer can fix.
+
+Always confirm what is included and what type each item is before touching format settings.
+
+## Editor formatting vs compile formatting
+
+Your editor appearance does not control output appearance. Compile Formats and Section Layouts override editor formatting. Write in any font and size you prefer -- it will not appear in the output unless you compile As-Is.
+
+## Beginner strategy
+
+1. Use a built-in format first. Do not customize immediately.
+2. Check Contents. Confirm only intended documents are included.
+3. Check Section Types. Confirm each item is labeled correctly.
+4. Assign Section Layouts and run a test compile to Word or PDF.
+5. Inspect the output file externally. Adjust from there.
 
 ## Advanced strategy
 
-Build separate compile presets for:
+Build separate compile presets for each output you produce regularly:
 
-- editor submission
-- proofing PDF
-- personal print copy
-- ebook
-- outline export
-- beta reader copy
+- editor submission (Word, double-spaced, standard manuscript)
+- proofing PDF (wide margins, comfortable reading)
+- ebook (EPUB 3 with cover and metadata)
 - plain text archive
-
-Each output can use the same manuscript with different compile rules.
-
+- beta reader packet (selected chapters)
 
 ## Related pages
 
+- [Compile Roadmap](00-compile-roadmap.md)
 - [Using Compile Formats](06-using-compile-formats.md)
 - [Section Layouts](11-section-layouts.md)
 - [Assigning Section Layouts to Section Types](07-assigning-section-layouts-to-section-types.md)
