@@ -9,7 +9,7 @@ tags:
   - selection
   - testing
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Compile only the Binder Selection
