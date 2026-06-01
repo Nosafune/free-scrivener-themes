@@ -53,6 +53,7 @@ Examples:
 | archive | Plain Text |
 | markdown pipeline | MultiMarkdown/Plain Text route if used |
 
+> **Note:** Scrivener 3 exports EPUB 3 (the current standard). Amazon KDP now prefers EPUB 3 over the older .mobi format for new uploads.
 
 ## Common mistakes
 
