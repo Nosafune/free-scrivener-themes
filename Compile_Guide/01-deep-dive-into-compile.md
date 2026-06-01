@@ -9,7 +9,7 @@ tags:
   - section-types
   - section-layouts
 difficulty: beginner
-status: draft
+status: complete
 ---
 
 # Deep dive into Compile
