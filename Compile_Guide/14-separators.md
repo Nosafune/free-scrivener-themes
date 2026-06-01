@@ -8,7 +8,7 @@ tags:
   - separators
   - formatting
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Separators
