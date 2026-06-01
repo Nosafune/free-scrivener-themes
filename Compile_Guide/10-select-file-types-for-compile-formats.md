@@ -8,7 +8,7 @@ tags:
   - file-types
   - export
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Select File Types for Compile Formats
