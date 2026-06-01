@@ -8,38 +8,21 @@ tags:
   - formats
   - export
 difficulty: intermediate
-status: complete
 ---
 
 # Using Compile Formats
 
 ## Fast answer
 
-A Compile Format is a reusable export design. It determines the available Section Layouts and many format-level rules.
+A Compile Format is a reusable export design that holds Section Layouts and format-level rules. Selecting one determines what layout options are available and how the output is shaped.
 
 ## Why this matters
 
+Compile Formats are the containers that hold export presentation. They control available layouts, typography rules, title formatting, separator behavior, page behavior, style handling, transformations, and output-specific settings.
 
-Compile Formats are the containers that hold export presentation.
+Changing the Compile Format changes what choices are available to you. A format built for print PDF is not the same as one built for EPUB.
 
-They control:
-
-- available layouts
-- typography
-- title formatting
-- separators
-- page behavior
-- style handling
-- transformations
-- output-specific formatting
-
-The selected Compile Format changes what choices are available.
-
-
-## Core workflow
-
-
-Basic workflow:
+## Basic workflow
 
 1. Open Compile.
 2. Choose the output type from Compile For.
@@ -47,70 +30,41 @@ Basic workflow:
 4. Review the preview tiles.
 5. Assign Section Layouts.
 6. Compile a test.
-7. Duplicate/edit the format only if needed.
+7. Duplicate and edit the format only if the test reveals something the built-in cannot handle.
 
-Use built-in formats as starting points.
-
-
-## Common mistakes
-
-
-### Assuming all formats work for all outputs
-
-Compile Formats can be output-specific.
-
-### Editing before assigning layouts
-
-Layout assignment may solve the problem without editing the format.
-
-### Using one format for multiple purposes
-
-A submission manuscript and an ebook usually need different formats.
-
-### Not naming custom formats clearly
-
-Purpose-based names save time.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
+Use built-in formats as starting points. Customize only after you see what the default produces.
 
 ## Format decision table
 
 | Need | Start with |
 |---|---|
-| Agent/editor submission | Manuscript-style format |
-| Print proof | PDF/print format |
-| Ebook | EPUB/Kindle format |
-| Plain text archive | Plain Text or Markdown-friendly format |
+| Agent or editor submission | Manuscript-style format |
+| Print proof | PDF or print format |
+| Ebook | EPUB format |
+| Plain text archive | Plain Text or MultiMarkdown-friendly format |
 | Outline export | Outline-focused compile setup |
 
-## Strong naming pattern
+## Naming pattern
 
-```text
-[Project/Genre] - [Output] - [Purpose] - [Version]
+```
+[Project] - [Output] - [Purpose] - [Version]
 ```
 
 Examples:
 
-```text
+```
 Novel - DOCX - Submission - v01
 Nonfiction - PDF - Proof - v03
-Series Bible - TXT - Archive - v01
+Series Bible - TXT - Archive
 ```
 
+## Common mistakes
+
+**Assuming all formats work for all outputs.** Compile Formats can be output-specific. Switching Compile For can change which formats appear.
+
+**Editing before assigning layouts.** Often the layout assignment alone fixes the problem without any format editing.
+
+**Using one format for multiple purposes.** A submission manuscript and an ebook need different formats. Separate them from the start.
 
 ## Related pages
 
