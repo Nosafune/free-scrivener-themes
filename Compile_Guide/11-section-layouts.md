@@ -8,7 +8,7 @@ tags:
   - section-layouts
   - formatting
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Section Layouts
