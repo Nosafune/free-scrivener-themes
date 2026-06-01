@@ -9,104 +9,41 @@ tags:
   - spacing
   - formatting
 difficulty: intermediate
-status: complete
 ---
 
 # Give a paragraph some room
 
 ## Fast answer
 
-Paragraph spacing in Compile is controlled by layout formatting, paragraph settings, and sometimes style behavior.
+Paragraph spacing in compiled output is controlled by Section Layout formatting rules, not by what the Editor looks like. Fix spacing problems in the layout, not in the manuscript.
 
-## Why this matters
+## Why the Editor does not help here
 
+Compile Formats override editor paragraph formatting. A document that looks well-spaced in the Editor can come out cramped or over-spaced in output because the Section Layout's paragraph settings take precedence.
 
-Paragraph spacing is one of the most common output surprises.
+This is by design: it lets you write in whatever spacing is comfortable and still produce professional output. But it means you cannot fix a spacing problem by editing the manuscript.
 
-The Editor may look acceptable, but the compiled result can change because Compile may override paragraph formatting.
+## Where to fix it
 
-This matters for:
+1. Identify the Section Type of the affected document.
+2. Find its assigned Section Layout.
+3. Open the Compile Format Designer.
+4. Navigate to that Section Layout's formatting.
+5. Adjust: space before paragraph, space after paragraph, line spacing, first-line indent.
+6. Compile a short test.
+7. Inspect: first paragraph after heading, normal body paragraph, paragraph after separator.
 
-- chapter openings
-- scene breaks
-- title spacing
-- block quotes
-- front matter
-- manuscript submissions
-- print layout
+## First-paragraph rules
 
-
-## Core workflow
-
-
-Basic spacing workflow:
-
-1. Identify the affected Section Type.
-2. Identify its assigned Section Layout.
-3. Open the layout formatting settings.
-4. Adjust paragraph spacing before/after.
-5. Check line spacing.
-6. Check first-line indent.
-7. Compile a short test.
-8. Inspect in target output format.
-
-Test with at least:
-
-- first paragraph after a heading
-- normal paragraph
-- paragraph after a separator
-- styled paragraph if styles are used
-
+Many manuscript formats suppress first-line indent on the paragraph immediately after a chapter heading or scene separator. If your first paragraphs look inconsistent, check whether the Section Layout has first-paragraph-override settings.
 
 ## Common mistakes
 
+**Using empty paragraphs for spacing.** Blank lines are fragile and behave differently across output formats. Use paragraph spacing rules in the layout instead.
 
-### Using empty paragraphs for spacing
+**Fixing spacing in the editor.** Compile will override it.
 
-Blank lines are fragile and can behave differently across outputs.
-
-### Fixing spacing in the Editor only
-
-Compile may override it.
-
-### Forgetting first paragraph rules
-
-Many manuscript formats suppress first-line indent after headings or separators.
-
-### Not checking ebook output separately
-
-Ebook spacing depends on reflowable layout behavior.
-
-
-## Practical test
-
-Compile a small sample before compiling the full manuscript. Use one chapter, one scene, one front matter item, and one item that uses the setting being tested.
-
-## Troubleshooting lens
-
-When output looks wrong, ask:
-
-1. Is the correct material included?
-2. Is the correct Section Type assigned?
-3. Is the correct Section Layout assigned?
-4. Is the selected Compile Format the one being edited?
-5. Is the output format capable of showing the thing you expect?
-
-
-## Better spacing strategy
-
-Use layout rules for structural spacing.
-
-Use styles only for semantically special paragraphs such as:
-
-- block quotes
-- verse
-- letters
-- excerpts
-- captions
-
-Avoid manual blank-line spacing except for intentional manuscript content.
-
+**Not checking ebook output separately.** Reflowable ebooks use CSS-like spacing behavior, which may differ from your print layout. Test each output format independently.
 
 ## Related pages
 
