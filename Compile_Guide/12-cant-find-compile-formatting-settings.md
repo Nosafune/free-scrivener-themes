@@ -8,7 +8,7 @@ tags:
   - troubleshooting
   - formatting
 difficulty: intermediate
-status: draft
+status: complete
 ---
 
 # Can't find Compile Formatting Settings?
