@@ -140,9 +140,9 @@ To use one: right-click your Scrivener shortcut, open Properties, choose Change 
 
 ## Compile Guide
 
-A 28-article Scrivener 3 compile reference is included in this repo — covering section types, section layouts, placeholders, separators, troubleshooting, and more.
+A 28-article Scrivener 3 compile reference is included in this repo - covering section types, section layouts, placeholders, separators, troubleshooting, and more.
 
-[Browse the Compile Guide →](Compile_Guide/README.md)
+[Browse the Compile Guide ->](Compile_Guide/README.md)
 
 ---
 
@@ -165,6 +165,7 @@ Restart Scrivener after importing or switching themes so the full interface refr
 - Added Cobalt2 Luxe and Cobalt2 IDE as Windows and Mac twin themes.
 - Added eight premium nature, game, and book-inspired twin themes.
 - Added three custom Scrivener `.ico` files as named release assets.
+- Rebuilt the Mac `.stheme` pack after a tester-reported editor text inheritance issue and added explicit dark-mode text overrides so the active theme controls the main writing text.
 
 ### v1.0.0
 
