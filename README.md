@@ -8,6 +8,8 @@ Now past **200 tracked release-asset downloads** on GitHub. Thanks for using the
 
 If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https://ko-fi.com/nosafune)
 
+**[Browse the full gallery →](https://nosafune.github.io/free-scrivener-themes/gallery.html)**
+
 ---
 
 ## Downloads

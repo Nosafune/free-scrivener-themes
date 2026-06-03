@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Scrivener Themes — Gallery</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #111;
+    --surface: #1a1a1a;
+    --border: #2a2a2a;
+    --text: #e8e8e8;
+    --muted: #888;
+    --accent: #c8a96e;
+    --radius: 6px;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  header {
+    padding: 48px 32px 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--border);
+  }
+
+  header h1 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    color: var(--text);
+  }
+
+  header p {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  header a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  header a:hover { text-decoration: underline; }
+
+  .links {
+    margin-top: 18px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .links a {
+    display: inline-block;
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    text-decoration: none;
+    font-size: 13px;
+    background: var(--surface);
+    transition: border-color 0.15s;
+  }
+
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px 64px;
+  }
+
+  .section-header {
+    padding: 40px 0 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .section-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .section-header .badge {
+    font-size: 12px;
+    color: var(--muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2px 9px;
+  }
+
+  .section-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: border-color 0.15s, transform 0.15s;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    border-color: #444;
+    transform: translateY(-2px);
+  }
+
+  .card img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: top left;
+    background: #0d0d0d;
+  }
+
+  .card-body {
+    padding: 12px 14px 14px;
+  }
+
+  .card-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.1px;
+  }
+
+  .card-vibe {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 3px;
+  }
+
+  /* Lightbox */
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.88);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  #lightbox.open { display: flex; }
+
+  #lightbox img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: var(--radius);
+    box-shadow: 0 8px 48px rgba(0,0,0,0.6);
+  }
+
+  #lightbox-close {
+    position: fixed;
+    top: 16px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #aaa;
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 1;
+  }
+
+  #lightbox-close:hover { color: #fff; }
+
+  #lightbox-caption {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ccc;
+    font-size: 13px;
+    background: rgba(0,0,0,0.6);
+    padding: 5px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 24px 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    header, main, footer { padding-left: 16px; padding-right: 16px; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Free Scrivener Themes</h1>
+  <p>50 themes for Windows and Mac — dark, light, colorful, and muted. Built for long writing sessions.</p>
+  <div class="links">
+    <a href="https://github.com/Nosafune/free-scrivener-themes">GitHub Repo</a>
+    <a href="https://github.com/Nosafune/free-scrivener-themes/releases/tag/v1.0.0">v1.0.0 Download (30 themes)</a>
+    <a href="https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0">v2.0.0 Download (20 themes)</a>
+    <a href="https://ko-fi.com/nosafune">Ko-fi</a>
+  </div>
+</header>
+
+<main>
+
+  <hr class="section-divider">
+  <div class="section-header">
+    <h2>v2.0.0</h2>
+    <span class="badge">20 themes</span>
+  </div>
+
+  <div class="grid">
+    <div class="card" onclick="openLightbox('assets/screenshots/shadow_magic.jpg','Shadow Magic')">
+      <img src="assets/screenshots/shadow_magic.jpg" alt="Shadow Magic" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Shadow Magic</div>
+        <div class="card-vibe">Deep indigo with violet accents</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/future_sequence.jpg','Future Sequence')">
+      <img src="assets/screenshots/future_sequence.jpg" alt="Future Sequence" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Future Sequence</div>
+        <div class="card-vibe">Cool tech blue-green</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/save_crystal.jpg','Save Crystal')">
+      <img src="assets/screenshots/save_crystal.jpg" alt="Save Crystal" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Save Crystal</div>
+        <div class="card-vibe">Crystalline blue and white</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/sheikah_slate.jpg','Sheikah Slate')">
+      <img src="assets/screenshots/sheikah_slate.jpg" alt="Sheikah Slate" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Sheikah Slate</div>
+        <div class="card-vibe">Dark grey with amber and blue</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/gerudo_sun.jpg','Gerudo Sun')">
+      <img src="assets/screenshots/gerudo_sun.jpg" alt="Gerudo Sun" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Gerudo Sun</div>
+        <div class="card-vibe">Warm desert gold and terracotta</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/trodain.jpg','Trodain')">
+      <img src="assets/screenshots/trodain.jpg" alt="Trodain" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Trodain</div>
+        <div class="card-vibe">Muted castle grey-green</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/mystic.jpg','Mystic')">
+      <img src="assets/screenshots/mystic.jpg" alt="Mystic" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Mystic</div>
+        <div class="card-vibe">Deep jewelled teal</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/twice_dead_shadow.jpg','Twice Dead Shadow')">
+      <img src="assets/screenshots/twice_dead_shadow.jpg" alt="Twice Dead Shadow" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Twice Dead Shadow</div>
+        <div class="card-vibe">Cold desaturated dark</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/ink_blood.jpg','Ink Blood')">
+      <img src="assets/screenshots/ink_blood.jpg" alt="Ink Blood" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Ink Blood</div>
+        <div class="card-vibe">Near-black with deep red accents</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/plain_jane.jpg','Plain Jane')">
+      <img src="assets/screenshots/plain_jane.jpg" alt="Plain Jane" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Plain Jane</div>
+        <div class="card-vibe">Clean light theme, minimal distraction</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/cobalt2_luxe.jpg','Cobalt2 Luxe')">
+      <img src="assets/screenshots/cobalt2_luxe.jpg" alt="Cobalt2 Luxe" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Cobalt2 Luxe</div>
+        <div class="card-vibe">Deep blue writing-safe Cobalt2 theme</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/cobalt2_ide.jpg','Cobalt2 IDE')">
+      <img src="assets/screenshots/cobalt2_ide.jpg" alt="Cobalt2 IDE" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Cobalt2 IDE</div>
+        <div class="card-vibe">Brighter IDE-style Cobalt2 theme</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/erdtree_manuscript.jpg','Erdtree Manuscript')">
+      <img src="assets/screenshots/erdtree_manuscript.jpg" alt="Erdtree Manuscript" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Erdtree Manuscript</div>
+        <div class="card-vibe">Mythic forest-gold manuscript</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/ravencliff_library.jpg','Ravencliff Library')">
+      <img src="assets/screenshots/ravencliff_library.jpg" alt="Ravencliff Library" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Ravencliff Library</div>
+        <div class="card-vibe">Gothic midnight library</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/sea_glass_archive.jpg','Sea Glass Archive')">
+      <img src="assets/screenshots/sea_glass_archive.jpg" alt="Sea Glass Archive" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Sea Glass Archive</div>
+        <div class="card-vibe">Coastal archive, seafoam and stone</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/chrono_lantern.jpg','Chrono Lantern')">
+      <img src="assets/screenshots/chrono_lantern.jpg" alt="Chrono Lantern" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Chrono Lantern</div>
+        <div class="card-vibe">Clockwork brass and blue light</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/moonlit_grove.jpg','Moonlit Grove')">
+      <img src="assets/screenshots/moonlit_grove.jpg" alt="Moonlit Grove" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Moonlit Grove</div>
+        <div class="card-vibe">Silvered forest night</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/ironwood_atlas.jpg','Ironwood Atlas')">
+      <img src="assets/screenshots/ironwood_atlas.jpg" alt="Ironwood Atlas" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Ironwood Atlas</div>
+        <div class="card-vibe">Antique map slate and bronze</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/ashen_ledger.jpg','Ashen Ledger')">
+      <img src="assets/screenshots/ashen_ledger.jpg" alt="Ashen Ledger" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Ashen Ledger</div>
+        <div class="card-vibe">Ash paper with ink and berry</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/hollow_quill.jpg','Hollow Quill')">
+      <img src="assets/screenshots/hollow_quill.jpg" alt="Hollow Quill" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Hollow Quill</div>
+        <div class="card-vibe">Ivory, ink, and smoked violet</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="section-divider" style="margin-top:40px;">
+  <div class="section-header">
+    <h2>v1.0.0</h2>
+    <span class="badge">30 themes</span>
+  </div>
+
+  <div class="grid">
+    <div class="card" onclick="openLightbox('assets/screenshots/mani_katti.jpg','Mani Katti')">
+      <img src="assets/screenshots/mani_katti.jpg" alt="Mani Katti" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Mani Katti</div>
+        <div class="card-vibe">Dark gold, clean and focused</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/mav_buster.jpg','Mav Buster')">
+      <img src="assets/screenshots/mav_buster.jpg" alt="Mav Buster" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Mav Buster</div>
+        <div class="card-vibe">Warm orange on dark, high contrast</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/majima.jpg','Majima')">
+      <img src="assets/screenshots/majima.jpg" alt="Majima" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Majima</div>
+        <div class="card-vibe">Deep purple, moody and immersive</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/night_tropics.jpg','Night Tropics')">
+      <img src="assets/screenshots/night_tropics.jpg" alt="Night Tropics" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Night Tropics</div>
+        <div class="card-vibe">Dark teal, lush and atmospheric</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/sovereign.jpg','Sovereign')">
+      <img src="assets/screenshots/sovereign.jpg" alt="Sovereign" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Sovereign</div>
+        <div class="card-vibe">Rich navy, formal and composed</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/commoner_king.jpg','Commoner King')">
+      <img src="assets/screenshots/commoner_king.jpg" alt="Commoner King" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Commoner King</div>
+        <div class="card-vibe">Earthy mid-tone, comfortable long sessions</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/amberlight.jpg','Amberlight')">
+      <img src="assets/screenshots/amberlight.jpg" alt="Amberlight" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Amberlight</div>
+        <div class="card-vibe">Amber on near-black, easy on the eyes</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/abyssal.jpg','Abyssal')">
+      <img src="assets/screenshots/abyssal.jpg" alt="Abyssal" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Abyssal</div>
+        <div class="card-vibe">Deep blue-black, minimal distraction</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/moss.jpg','Moss')">
+      <img src="assets/screenshots/moss.jpg" alt="Moss" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Moss</div>
+        <div class="card-vibe">Muted green, calm and organic</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/noir.jpg','Noir')">
+      <img src="assets/screenshots/noir.jpg" alt="Noir" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Noir</div>
+        <div class="card-vibe">High contrast black and white</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/synthwave.jpg','Synthwave')">
+      <img src="assets/screenshots/synthwave.jpg" alt="Synthwave" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Synthwave</div>
+        <div class="card-vibe">Purple and pink, retro neon</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/bloodglass.jpg','Bloodglass')">
+      <img src="assets/screenshots/bloodglass.jpg" alt="Bloodglass" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Bloodglass</div>
+        <div class="card-vibe">Deep red, dramatic</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/occult.jpg','Occult')">
+      <img src="assets/screenshots/occult.jpg" alt="Occult" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Occult</div>
+        <div class="card-vibe">Dark with muted purple accents</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/scorned_and_damned.jpg','Scorned and Damned')">
+      <img src="assets/screenshots/scorned_and_damned.jpg" alt="Scorned and Damned" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Scorned and Damned</div>
+        <div class="card-vibe">Dark and desaturated</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/copper_terminal.jpg','Copper Terminal')">
+      <img src="assets/screenshots/copper_terminal.jpg" alt="Copper Terminal" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Copper Terminal</div>
+        <div class="card-vibe">Warm copper on dark, terminal feel</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/frostbound.jpg','Frostbound')">
+      <img src="assets/screenshots/frostbound.jpg" alt="Frostbound" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Frostbound</div>
+        <div class="card-vibe">Cool blue-grey, clean winter tones</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/cosmic_nebula.jpg','Cosmic Nebula')">
+      <img src="assets/screenshots/cosmic_nebula.jpg" alt="Cosmic Nebula" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Cosmic Nebula</div>
+        <div class="card-vibe">Deep space purple and blue</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/volcanic.jpg','Volcanic')">
+      <img src="assets/screenshots/volcanic.jpg" alt="Volcanic" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Volcanic</div>
+        <div class="card-vibe">Dark with orange-red accents</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/sakura.jpg','Sakura')">
+      <img src="assets/screenshots/sakura.jpg" alt="Sakura" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Sakura</div>
+        <div class="card-vibe">Soft pink, light and gentle</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/sunflower.jpg','Sunflower')">
+      <img src="assets/screenshots/sunflower.jpg" alt="Sunflower" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Sunflower</div>
+        <div class="card-vibe">Warm yellow, bright and open</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/el_catedral.jpg','El Catedral')">
+      <img src="assets/screenshots/el_catedral.jpg" alt="El Catedral" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">El Catedral</div>
+        <div class="card-vibe">Warm stone, old world feel</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/scholars_den.jpg','Scholar\'s Den')">
+      <img src="assets/screenshots/scholars_den.jpg" alt="Scholar's Den" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Scholar's Den</div>
+        <div class="card-vibe">Rich brown, library atmosphere</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/art_deco.jpg','Art Deco')">
+      <img src="assets/screenshots/art_deco.jpg" alt="Art Deco" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Art Deco</div>
+        <div class="card-vibe">Geometric gold on dark</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/bluegray_folio.jpg','Bluegray Folio')">
+      <img src="assets/screenshots/bluegray_folio.jpg" alt="Bluegray Folio" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Bluegray Folio</div>
+        <div class="card-vibe">Professional blue-grey</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/arroyo.jpg','Arroyo')">
+      <img src="assets/screenshots/arroyo.jpg" alt="Arroyo" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Arroyo</div>
+        <div class="card-vibe">Warm desert tones</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/tempest.jpg','Tempest')">
+      <img src="assets/screenshots/tempest.jpg" alt="Tempest" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Tempest</div>
+        <div class="card-vibe">Cool stormy blue-grey</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/mystify.jpg','Mystify')">
+      <img src="assets/screenshots/mystify.jpg" alt="Mystify" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Mystify</div>
+        <div class="card-vibe">Shifting blue-purple</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/toxin.jpg','Toxin')">
+      <img src="assets/screenshots/toxin.jpg" alt="Toxin" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Toxin</div>
+        <div class="card-vibe">Acidic green on dark</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/dark_clubhouse.jpg','Dark Clubhouse')">
+      <img src="assets/screenshots/dark_clubhouse.jpg" alt="Dark Clubhouse" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Dark Clubhouse</div>
+        <div class="card-vibe">Muted dark social feel</div>
+      </div>
+    </div>
+    <div class="card" onclick="openLightbox('assets/screenshots/salva_la_reina.jpg','Salva la Reina')">
+      <img src="assets/screenshots/salva_la_reina.jpg" alt="Salva la Reina" loading="lazy">
+      <div class="card-body">
+        <div class="card-name">Salva la Reina</div>
+        <div class="card-vibe">Deep jewel tones</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  Made by <a href="https://ko-fi.com/nosafune">Nosafune</a>. Free forever. &mdash;
+  <a href="https://github.com/Nosafune/free-scrivener-themes">GitHub</a>
+</footer>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <button id="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+
+<script>
+function openLightbox(src, name) {
+  const lb = document.getElementById('lightbox');
+  document.getElementById('lightbox-img').src = src;
+  document.getElementById('lightbox-caption').textContent = name;
+  lb.classList.add('open');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>
