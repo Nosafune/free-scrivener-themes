@@ -2,7 +2,7 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-**50 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
+**60 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
 
 Now past **200 tracked release-asset downloads** on GitHub. Thanks for using them.
 
@@ -14,11 +14,11 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 
 ## Downloads
 
-### v2.0.0 - 20-Pack
+### v2.0.0 - 30-Pack
 
 https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
-Start here if you want the newest themes. This release now adds 20 theme pairs on Windows and Mac, including the Cobalt2 pair and the new premium nature, game, and book-inspired lanes.
+Start here if you want the newest themes. This release now adds 30 theme pairs on Windows and Mac, including the Cobalt2 pair and the new premium nature, game, and book-inspired lanes.
 
 ### v1.0.0 - Original 30
 
@@ -32,7 +32,7 @@ https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
 ### Mac Themes
 
-Mac `.stheme` files are available for all 50 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
+Mac `.stheme` files are available for all 60 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
 
 ---
 
@@ -162,7 +162,7 @@ Restart Scrivener after importing or switching themes so the full interface refr
 
 ### v2.0.0
 
-- Expanded the v2.0.0 pack from 12 to 20 theme pairs on Windows and Mac after the original release passed 200 tracked downloads.
+- Expanded the v2.0.0 pack from 20 to 30 theme pairs on Windows and Mac after the original release passed 200 tracked downloads.
 - Added individual `.scrtheme` and `.stheme` assets for per-theme downloads.
 - Added Cobalt2 Luxe and Cobalt2 IDE as Windows and Mac twin themes.
 - Added eight premium nature, game, and book-inspired twin themes.
