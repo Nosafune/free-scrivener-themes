@@ -2,7 +2,7 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
-**60 themes total** across two releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
+**68 themes total** across three releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
 
 Now past **200 tracked release-asset downloads** on GitHub. Thanks for using them.
 
@@ -13,6 +13,12 @@ If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https:/
 ---
 
 ## Downloads
+
+### v3.0.0 - 8-Pack
+
+https://github.com/Nosafune/free-scrivener-themes/releases/tag/v3.0.0
+
+This is another quiet shadow drop: 8 new twin themes inspired by Baldur's Gate 3 characters, bundled with a single all-in-one pack and individual downloads for each theme pair.
 
 ### v2.0.0 - 30-Pack
 
@@ -34,7 +40,22 @@ https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
 ### Mac Themes
 
-Mac `.stheme` files are available for all 60 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
+Mac `.stheme` files are available for all 68 themes as individual downloads on their release pages, plus full pack ZIPs where provided.
+
+---
+
+## v3.0.0 Themes
+
+| Theme | Vibe |
+|---|---|
+| Pale Fang | Bone, ivory, black velvet, and blood-red restraint |
+| Veil of Shar | Charcoal, pewter, muted violet, and moon-silver |
+| Weave Archive | Royal blue, parchment, and antique gold |
+| Gith Steel | Olive-steel, bone, and battle-worn leather |
+| Blade of the Frontiers | Midnight navy, black, crimson, and old gold |
+| Infernal Engine | Ember red, soot, furnace copper, and brass |
+| Crimson Urge | Obsidian, dried blood, ash, and ritual gold |
+| Wildwood Warden | Bark umber, lichen, olive-gray, and pollen gold |
 
 ---
 
@@ -170,6 +191,12 @@ Restart Scrivener after importing or switching themes so the full interface refr
 - Added eight premium nature, game, and book-inspired twin themes.
 - Added three custom Scrivener `.ico` files as named release assets.
 - Rebuilt the Mac `.stheme` pack after a tester-reported editor text inheritance issue and added explicit dark-mode text overrides so the active theme controls the main writing text.
+
+### v3.0.0
+
+- Added eight Baldur's Gate 3-inspired twin themes as a quiet shadow drop.
+- Added an all-in-one pack alongside individual theme downloads for each new pair.
+- Kept the release line free of copied art or character assets; only the color language and naming are inspired by the characters.
 
 ### v1.0.0
 
