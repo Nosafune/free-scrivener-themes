@@ -20,6 +20,7 @@ https://github.com/Nosafune/free-scrivener-themes/releases/tag/v2.0.0
 
 Start here if you want the newest themes. This release now adds 30 theme pairs on Windows and Mac, including the Cobalt2 pair and the new premium nature, game, and book-inspired lanes.
 This was a quiet shadow drop for the fans who watch the release page closely: the v2 pack grew from 20 to 30 theme pairs without a separate announcement.
+The pack ZIP download has also been rebuilt so the bundled download includes all 30 pairs.
 
 ### v1.0.0 - Original 30
 
