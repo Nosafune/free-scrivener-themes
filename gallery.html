@@ -627,5 +627,26 @@ function closeLightbox() {
 }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 </script>
+<script>
+(function() {
+  if (navigator.webdriver) return;
+  try {
+    var payload = JSON.stringify({
+      route: '/scrivener-themes/gallery.html',
+      referrer: document.referrer || null
+    });
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon('https://nosafune.com/api/hit', new Blob([payload], { type: 'application/json' }));
+      return;
+    }
+    fetch('https://nosafune.com/api/hit', {
+      method: 'POST',
+      mode: 'no-cors',
+      body: payload,
+      keepalive: true
+    }).catch(function() {});
+  } catch (_) {}
+})();
+</script>
 </body>
 </html>
