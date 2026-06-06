@@ -2,9 +2,13 @@
 
 Free Scrivener 3 themes for writers who want a better drafting workspace.
 
+## OVER 1,000 DOWNLOADS AND COUNTING
+
+Thanks for pushing this free Scrivener theme library past four digits.
+
 **68 themes total** across three releases: dark, light, colorful, muted, and high-contrast themes built for long writing sessions. Available for both Windows and Mac.
 
-Now past **200 tracked release-asset downloads** on GitHub. Thanks for using them.
+Now past **1,000 tracked release-asset downloads** on GitHub. Thanks for using them.
 
 If these saved you some time, a coffee means a lot: [ko-fi.com/nosafune](https://ko-fi.com/nosafune)
 
