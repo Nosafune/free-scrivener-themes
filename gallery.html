@@ -637,8 +637,8 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbo
       referrer: document.referrer || null
     });
     if (navigator.sendBeacon) {
-      navigator.sendBeacon('https://nosafune.com/api/hit', new Blob([payload], { type: 'application/json' }));
-      return;
+      var sent = navigator.sendBeacon('https://nosafune.com/api/hit', new Blob([payload], { type: 'text/plain;charset=UTF-8' }));
+      if (sent) return;
     }
     fetch('https://nosafune.com/api/hit', {
       method: 'POST',
